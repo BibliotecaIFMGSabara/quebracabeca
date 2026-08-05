@@ -1,0 +1,1061 @@
+[
+  {
+    "id": "quixo",
+    "title": "Quixo",
+    "subtitle": "Estratégia de alinhamento com cubos",
+    "summary": "Retire um cubo da borda, marque-o e empurre uma fileira: cada jogada modifica todo o tabuleiro.",
+    "image": "quixo.webp",
+    "image_alt": "Tabuleiro de Quixo com cubos marcados por X e O",
+    "category": "estrategia",
+    "category_label": "Estratégia",
+    "players": "2 ou 4",
+    "time": "15–30 min",
+    "difficulty": "Intermediário",
+    "mode": "Regra conhecida",
+    "tags": [
+      "planejamento",
+      "antecipação",
+      "tabuleiro"
+    ],
+    "objective": "Formar uma linha de cinco cubos com o seu símbolo, na horizontal, vertical ou diagonal.",
+    "intro": [
+      "Quixo transforma a ideia do jogo da velha em um tabuleiro móvel. Em vez de apenas ocupar uma casa, cada pessoa retira um cubo permitido da borda, mostra o próprio símbolo e o recoloca empurrando uma linha.",
+      "O interesse está no efeito coletivo de cada movimento: uma jogada pode aproximar sua vitória, abrir caminho para o oponente ou desfazer uma configuração que parecia segura."
+    ],
+    "steps": [
+      {
+        "title": "Prepare",
+        "text": "Disponha os 25 cubos com as faces neutras para cima. Cada lado escolhe X ou O."
+      },
+      {
+        "title": "Escolha um cubo",
+        "text": "Na sua vez, retire da borda um cubo neutro ou já marcado com o seu símbolo. Não retire um cubo do adversário."
+      },
+      {
+        "title": "Marque e empurre",
+        "text": "Gire o cubo para deixar seu símbolo para cima e introduza-o por uma extremidade da fileira ou coluna de onde ele saiu, empurrando os demais."
+      },
+      {
+        "title": "Verifique a linha",
+        "text": "Vence quem completar primeiro cinco símbolos alinhados. Em caso de dúvida, consulte o manual do exemplar, pois edições podem detalhar situações especiais."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Antecipação",
+        "text": "Comparar consequências possíveis antes de escolher uma borda."
+      },
+      {
+        "title": "Leitura de configuração",
+        "text": "Perceber linhas, ameaças e mudanças causadas pelo deslocamento coletivo."
+      },
+      {
+        "title": "Argumentação",
+        "text": "Explicar por que uma jogada parecia melhor que outra, inclusive depois de um erro."
+      }
+    ],
+    "mediation": [
+      "Qual peça mudou de função depois do empurrão?",
+      "Sua jogada cria uma ameaça ou apenas responde à ameaça do outro?",
+      "Que movimento você faria se pudesse voltar uma rodada? Por quê?"
+    ],
+    "adaptations": [
+      "Use marcas táteis diferentes para X e O quando a distinção visual não for suficiente.",
+      "Uma pessoa pode indicar verbalmente a jogada enquanto outra manipula os cubos.",
+      "Para começar, jogue em duplas cooperativas e permita discutir cada decisão."
+    ],
+    "care": "Não use a rapidez da partida como medida de inteligência. O valor pedagógico está em tornar visíveis as estratégias e revisá-las.",
+    "sources": [
+      {
+        "label": "Gigamic — página oficial do Quixo",
+        "url": "https://en.gigamic.com/modern-classics/105-quixo.html"
+      }
+    ]
+  },
+  {
+    "id": "kendama",
+    "title": "Kendama",
+    "subtitle": "Coordenação, ritmo e precisão",
+    "summary": "Um brinquedo de habilidade em que a bola é recebida nos copos ou encaixada na ponta da haste.",
+    "image": "kendama.webp",
+    "image_alt": "Kendama de madeira com bola vermelha presa por um cordão",
+    "category": "habilidade",
+    "category_label": "Habilidade",
+    "players": "1 por vez",
+    "time": "5–20 min",
+    "difficulty": "Progressivo",
+    "mode": "Prática por tentativas",
+    "tags": [
+      "coordenação",
+      "ritmo",
+      "persistência"
+    ],
+    "objective": "Controlar o movimento da bola e realizar recepções nos copos ou na ponta, começando por movimentos simples.",
+    "intro": [
+      "O kendama combina uma haste com copos, uma ponta e uma bola presa por cordão. O desafio não depende de força, mas de sincronizar joelhos, mãos, olhar e trajetória.",
+      "A aprendizagem costuma acontecer em pequenas conquistas. Em vez de repetir mecanicamente, vale observar altura, direção, tensão do cordão e momento da recepção."
+    ],
+    "steps": [
+      {
+        "title": "Garanta espaço",
+        "text": "Afaste-se de pessoas, vidros e objetos frágeis. Verifique se o cordão e a bola estão firmes."
+      },
+      {
+        "title": "Comece pelo copo maior",
+        "text": "Segure a haste com conforto, flexione levemente os joelhos e faça a bola subir em trajetória curta."
+      },
+      {
+        "title": "Receba, não golpeie",
+        "text": "Acompanhe a descida da bola e amorteça o contato flexionando o corpo. Tente manter o movimento controlado."
+      },
+      {
+        "title": "Aumente o desafio",
+        "text": "Depois do copo maior, experimente os outros copos e, por último, a ponta. Conte séries apenas se isso ajudar, não para constranger."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Coordenação global",
+        "text": "Integrar movimentos de braços, mãos, pernas e olhar."
+      },
+      {
+        "title": "Ajuste por feedback",
+        "text": "Perceber por que a bola passou, faltou altura ou saiu do eixo."
+      },
+      {
+        "title": "Autorregulação",
+        "text": "Lidar com repetição e frustração sem transformar a atividade em punição."
+      }
+    ],
+    "mediation": [
+      "O que mudou entre uma tentativa e outra?",
+      "Você precisa de mais altura ou de mais controle?",
+      "Qual parte do movimento pode ser treinada separadamente?"
+    ],
+    "adaptations": [
+      "Use uma bola mais leve ou aumente temporariamente o comprimento do cordão, quando o exemplar permitir.",
+      "Pratique sentado ou com apoio, desde que haja espaço seguro para a trajetória.",
+      "Permita que uma pessoa observe e descreva a trajetória enquanto outra realiza o movimento."
+    ],
+    "care": "O cordão pode atingir o rosto ou objetos próximos. A atividade deve ocorrer com distância segura e sem competição obrigatória.",
+    "sources": [
+      {
+        "label": "Japan Kendama Association — informações institucionais",
+        "url": "https://kendama.or.jp/english/"
+      },
+      {
+        "label": "Japan Kendama Association — repertório de movimentos básicos",
+        "url": "https://kendama.or.jp/tricks/basic_tricks/"
+      }
+    ]
+  },
+  {
+    "id": "argola-prisioneira",
+    "title": "Argola Prisioneira",
+    "subtitle": "Quebra-cabeça de desenlace",
+    "summary": "Cordão, argola e estrutura parecem inseparáveis, mas uma sequência de movimentos pode mudar essa relação.",
+    "image": "argola_prisioneira.svg",
+    "image_alt": "Ilustração esquemática de uma argola presa por um cordão",
+    "category": "desenlace",
+    "category_label": "Desenlace",
+    "players": "1 ou dupla",
+    "time": "5–30 min",
+    "difficulty": "Intermediário",
+    "mode": "Guia de exploração",
+    "tags": [
+      "pensamento lateral",
+      "sequência",
+      "cordão"
+    ],
+    "objective": "Libertar a argola sem cortar, desfazer nós permanentes ou forçar a estrutura; depois, reconstruir a posição inicial.",
+    "intro": [
+      "Nos quebra-cabeças de desenlace, o obstáculo costuma ser a representação mental do percurso. A argola parece grande demais ou o cordão parece fechado demais, mas uma passagem intermediária altera a configuração.",
+      "Como há muitos modelos diferentes, este site oferece um método de investigação, não uma solução específica. Observe o exemplar antes de afirmar qual peça deve sair."
+    ],
+    "steps": [
+      {
+        "title": "Mapeie as ligações",
+        "text": "Identifique por onde o cordão passa, quais partes são rígidas e quais aberturas realmente permitem passagem."
+      },
+      {
+        "title": "Crie folga",
+        "text": "Procure formar uma alça maior antes de tentar mover a argola. Muitas soluções dependem de levar uma parte do cordão até outra região."
+      },
+      {
+        "title": "Mude uma variável",
+        "text": "Teste um movimento por vez e observe o estado resultante. Evite movimentos aleatórios muito rápidos."
+      },
+      {
+        "title": "Reconstrua",
+        "text": "Depois de liberar a peça, tente refazer o caminho inverso. A remontagem ajuda a compreender a solução."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Rastreamento de percurso",
+        "text": "Acompanhar mentalmente o caminho do cordão e da argola."
+      },
+      {
+        "title": "Pensamento reversível",
+        "text": "Usar a reconstrução para entender a sequência de transformação."
+      },
+      {
+        "title": "Controle de impulso",
+        "text": "Substituir força e pressa por observação e testes pequenos."
+      }
+    ],
+    "mediation": [
+      "Qual abertura parece impossível, mas poderia aumentar com uma alça de cordão?",
+      "O que precisa atravessar primeiro: a argola, o cordão ou outra peça?",
+      "Você consegue descrever a configuração sem tocar no objeto?"
+    ],
+    "adaptations": [
+      "Amplie a exploração em dupla: uma pessoa descreve e a outra executa.",
+      "Fotografe a posição inicial para reduzir a carga de memória na remontagem.",
+      "Ofereça pistas graduais, apontando uma região do objeto sem demonstrar toda a solução."
+    ],
+    "care": "Não puxe o cordão com força. Se uma peça só se move mediante pressão excessiva, interrompa e revise a hipótese.",
+    "sources": []
+  },
+  {
+    "id": "tetris-3d",
+    "title": "Tetris 3D — Cubo",
+    "subtitle": "Montagem espacial com policubos",
+    "summary": "Peças formadas por pequenos cubos devem ocupar todo o volume de um cubo maior, sem vazios nem sobreposições.",
+    "image": "tetris_3d.webp",
+    "image_alt": "Cubo de madeira montado com peças geométricas tridimensionais",
+    "category": "montagem",
+    "category_label": "Montagem 3D",
+    "players": "1 ou grupo",
+    "time": "10–40 min",
+    "difficulty": "Avançado",
+    "mode": "Guia de exploração",
+    "tags": [
+      "visão espacial",
+      "policubos",
+      "composição"
+    ],
+    "objective": "Combinar todas as peças para formar um cubo compacto, respeitando o volume e o contorno externo.",
+    "intro": [
+      "Este exemplar é um quebra-cabeça físico de empacotamento. Embora o nome do acervo faça referência a Tetris, ele não reproduz as regras do videogame: aqui não há peças caindo nem eliminação de linhas.",
+      "O problema central é imaginar rotações em três dimensões e distribuir saliências e reentrâncias entre as camadas do cubo."
+    ],
+    "steps": [
+      {
+        "title": "Conte o volume",
+        "text": "Observe quantos pequenos cubos formam cada peça e estime as dimensões do cubo final."
+      },
+      {
+        "title": "Procure superfícies",
+        "text": "Separe faces planas que podem compor cantos, bordas e lados externos."
+      },
+      {
+        "title": "Monte por camadas",
+        "text": "Teste bases completas e verifique se elas deixam espaço possível para as peças restantes."
+      },
+      {
+        "title": "Revise cedo",
+        "text": "Se surgir um vazio impossível de preencher, desfaça algumas decisões. Não espere o último encaixe para reconsiderar a base."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Rotação mental",
+        "text": "Imaginar uma mesma peça em diferentes orientações."
+      },
+      {
+        "title": "Conservação de volume",
+        "text": "Relacionar o espaço total ao volume ocupado por cada componente."
+      },
+      {
+        "title": "Decomposição",
+        "text": "Transformar um problema tridimensional em camadas, cantos e subproblemas."
+      }
+    ],
+    "mediation": [
+      "Qual peça tem mais chance de formar um canto externo?",
+      "O espaço restante ainda corresponde a alguma peça disponível?",
+      "Montar por camadas ajuda ou limita suas possibilidades?"
+    ],
+    "adaptations": [
+      "Marque as peças com símbolos táteis ou letras para facilitar referência verbal.",
+      "Use um molde transparente ou uma moldura de canto para indicar o volume final.",
+      "Reduza o desafio apresentando uma fotografia de uma camada intermediária, não da solução completa."
+    ],
+    "care": "O nome “Tetris 3D” é usado no acervo como identificação do objeto. Ele não indica necessariamente um produto oficial da marca Tetris.",
+    "sources": [
+      {
+        "label": "Tetris — história oficial do videogame que inspirou o nome",
+        "url": "https://tetris.com/about"
+      }
+    ]
+  },
+  {
+    "id": "senhoritas-chinesas",
+    "title": "Damas Chinesas",
+    "catalog_alias": "Identificado no acervo como “Senhoritas Chinesas”",
+    "subtitle": "Corrida estratégica por saltos",
+    "summary": "Leve suas peças até a ponta oposta da estrela, criando cadeias de saltos e caminhos eficientes.",
+    "image": "senhoritas_chinesas.webp",
+    "image_alt": "Tabuleiro de Damas Chinesas em formato de estrela com peças coloridas",
+    "category": "estrategia",
+    "category_label": "Estratégia",
+    "players": "2, 3, 4 ou 6",
+    "time": "15–45 min",
+    "difficulty": "Inicial a intermediário",
+    "mode": "Regra conhecida",
+    "tags": [
+      "saltos",
+      "planejamento",
+      "corrida"
+    ],
+    "objective": "Transferir todas as suas peças para a área oposta do tabuleiro antes dos demais participantes.",
+    "intro": [
+      "Damas Chinesas é um jogo de percurso em tabuleiro estrelado. As peças não capturam umas às outras: elas avançam para casas vizinhas ou saltam sobre peças, podendo encadear vários saltos na mesma jogada.",
+      "Apesar do nome difundido no século XX, o jogo tem origem alemã e deriva do Halma. No acervo, o exemplar aparece com o nome “Senhoritas Chinesas”; o catálogo preserva esse alias para facilitar a localização."
+    ],
+    "steps": [
+      {
+        "title": "Escolha as áreas",
+        "text": "Cada participante ocupa uma ponta da estrela e deve chegar à ponta oposta."
+      },
+      {
+        "title": "Mova ou salte",
+        "text": "Na vez, desloque uma peça para uma casa adjacente livre ou salte sobre uma peça vizinha para a casa livre logo após ela."
+      },
+      {
+        "title": "Encadeie saltos",
+        "text": "Quando a edição permitir, continue saltando com a mesma peça enquanto houver sequências válidas. Não há captura."
+      },
+      {
+        "title": "Complete a travessia",
+        "text": "Vence quem levar primeiro todas as peças à área de destino. Combine previamente regras para bloqueios dentro da área final."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Planejamento de rotas",
+        "text": "Comparar deslocamentos curtos com cadeias de saltos."
+      },
+      {
+        "title": "Uso do coletivo",
+        "text": "Perceber peças próprias e adversárias como possíveis pontes, não apenas obstáculos."
+      },
+      {
+        "title": "Flexibilidade",
+        "text": "Alterar o caminho quando uma sequência esperada deixa de existir."
+      }
+    ],
+    "mediation": [
+      "Qual peça pode funcionar como ponte para várias outras?",
+      "É melhor avançar a peça da frente ou organizar as que ficaram atrás?",
+      "Como uma jogada do adversário pode também criar uma oportunidade para você?"
+    ],
+    "adaptations": [
+      "Diferencie os conjuntos com textura ou formato, não apenas pela cor.",
+      "Reduza o número de peças nas primeiras partidas para encurtar a duração.",
+      "Permita planejamento em dupla e use setas removíveis para marcar uma cadeia de saltos."
+    ],
+    "care": "As configurações para 2, 3, 4 ou 6 participantes podem variar conforme o tabuleiro. Consulte o manual do exemplar antes da atividade.",
+    "sources": [
+      {
+        "label": "The Strong National Museum of Play — origem alemã e relação com Halma",
+        "url": "https://www.museumofplay.org/blog/playing-for-keepsies-marble-play/"
+      },
+      {
+        "label": "Hasbro — regras históricas de Chinese Checkers",
+        "url": "https://www.hasbro.com/common/instruct/ChineseCheckers%281938%29.PDF"
+      }
+    ]
+  },
+  {
+    "id": "travas-do-herois",
+    "title": "Estrela de Madeira",
+    "catalog_alias": "Arquivo anterior: “Travas dos Heróis para Montar”",
+    "subtitle": "Encaixe tridimensional interligado",
+    "summary": "Uma estrela formada por peças entalhadas só se desmonta e remonta quando a sequência correta é encontrada.",
+    "image": "travas_do_herois_para_montar.webp",
+    "image_alt": "Quebra-cabeça de madeira montado em formato de estrela",
+    "category": "montagem",
+    "category_label": "Montagem 3D",
+    "players": "1 ou dupla",
+    "time": "10–40 min",
+    "difficulty": "Avançado",
+    "mode": "Guia de exploração",
+    "tags": [
+      "encaixe",
+      "sequência",
+      "percepção espacial"
+    ],
+    "objective": "Desmontar a estrutura sem força e remontá-la até recuperar a forma de estrela.",
+    "intro": [
+      "A Estrela de Madeira pertence à família dos quebra-cabeças de peças interligadas. Uma ou duas peças costumam funcionar como chave; quando elas se deslocam, as demais ganham liberdade.",
+      "O nome encontrado no arquivo anterior não descrevia claramente o objeto. A página adota o nome visível na imagem e mantém o alias para não perder a referência do acervo."
+    ],
+    "steps": [
+      {
+        "title": "Procure a peça-chave",
+        "text": "Teste movimentos curtos e identifique a peça com maior folga. Não tente separar tudo ao mesmo tempo."
+      },
+      {
+        "title": "Registre a ordem",
+        "text": "Organize as peças na sequência em que saem ou fotografe cada etapa."
+      },
+      {
+        "title": "Compare entalhes",
+        "text": "Antes de remontar, observe quais ranhuras podem se cruzar e quais faces devem ficar externas."
+      },
+      {
+        "title": "Feche a estrutura",
+        "text": "Monte o núcleo e deixe a peça-chave para o final. Se o encaixe exigir força, alguma orientação está incorreta."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Análise estrutural",
+        "text": "Perceber dependências entre peças e graus de liberdade."
+      },
+      {
+        "title": "Memória sequencial",
+        "text": "Registrar e inverter a ordem de desmontagem."
+      },
+      {
+        "title": "Visualização espacial",
+        "text": "Relacionar ranhuras internas à forma final externa."
+      }
+    ],
+    "mediation": [
+      "Qual peça tem movimento independente das demais?",
+      "A remontagem exige repetir ou inverter a sequência?",
+      "Que informação uma fotografia registra e o tato não registra — e vice-versa?"
+    ],
+    "adaptations": [
+      "Numere discretamente as peças para permitir descrição e registro da sequência.",
+      "Ofereça uma base antiderrapante para reduzir exigência de estabilização manual.",
+      "Divida o trabalho: uma pessoa investiga os encaixes e outra documenta o processo."
+    ],
+    "care": "Madeira pode lascar quando forçada. Interrompa a tentativa diante de resistência forte e verifique se há peças danificadas.",
+    "sources": []
+  },
+  {
+    "id": "tetris-3d-torre",
+    "title": "Tetris 3D — Torre",
+    "subtitle": "Empacotamento em estrutura vertical",
+    "summary": "Organize peças tridimensionais dentro de uma moldura alta, controlando orientação, camadas e espaços vazios.",
+    "image": "tetris_3d_de_torre.webp",
+    "image_alt": "Moldura vertical de madeira com peças geométricas para montar uma torre",
+    "category": "montagem",
+    "category_label": "Montagem 3D",
+    "players": "1 ou grupo",
+    "time": "10–40 min",
+    "difficulty": "Intermediário",
+    "mode": "Guia de exploração",
+    "tags": [
+      "empacotamento",
+      "camadas",
+      "rotação mental"
+    ],
+    "objective": "Acomodar todas as peças dentro da moldura vertical, sem ultrapassar o contorno nem deixar espaços incompatíveis.",
+    "intro": [
+      "A torre é um problema de empacotamento tridimensional: cada peça ocupa parte do volume e condiciona as posições futuras. Não se trata principalmente de equilíbrio, mas de encaixe dentro de limites.",
+      "O nome faz referência visual às formas de blocos. Como o exemplar não apresenta regras na imagem, as orientações abaixo são uma proposta de exploração a ser confirmada com o material físico."
+    ],
+    "steps": [
+      {
+        "title": "Examine a moldura",
+        "text": "Determine a altura, largura e profundidade úteis. Observe por quais lados as peças podem entrar."
+      },
+      {
+        "title": "Classifique as peças",
+        "text": "Separe formatos retos, salientes e côncavos. Identifique quais podem completar uma camada."
+      },
+      {
+        "title": "Evite cavidades fechadas",
+        "text": "Antes de inserir uma peça, confira se o espaço criado ainda pode ser ocupado por alguma das restantes."
+      },
+      {
+        "title": "Teste outra base",
+        "text": "Quando o topo não fecha, volte à base: em problemas de empacotamento, o erro final costuma ter começado várias peças antes."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Planejamento espacial",
+        "text": "Antecipar o volume que continuará disponível."
+      },
+      {
+        "title": "Classificação geométrica",
+        "text": "Comparar peças por forma, orientação e função possível."
+      },
+      {
+        "title": "Revisão de estratégia",
+        "text": "Localizar decisões anteriores que produziram um impasse."
+      }
+    ],
+    "mediation": [
+      "Qual peça restringe mais o espaço e deveria entrar primeiro?",
+      "O vazio criado tem a forma de alguma peça restante?",
+      "Como você explicaria a torre usando apenas camadas?"
+    ],
+    "adaptations": [
+      "Use uma bandeja com divisões para manter as peças organizadas e visíveis.",
+      "Marque a altura de cada camada na moldura com elásticos ou fitas removíveis.",
+      "Permita construção cooperativa com descrição verbal das orientações."
+    ],
+    "care": "Confirme no exemplar se a proposta é realmente preencher a moldura. Não pressione peças contra as hastes laterais.",
+    "sources": []
+  },
+  {
+    "id": "a-caixa-de-pandora",
+    "title": "Caixa de Pandora",
+    "subtitle": "Caixa secreta com mecanismo oculto",
+    "summary": "A abertura depende de descobrir peças móveis e uma sequência de ações, não de encontrar uma fechadura visível.",
+    "image": "a_caixa_de_pandora.webp",
+    "image_alt": "Caixa de madeira com abertura lateral, apresentada como quebra-cabeça",
+    "category": "logica",
+    "category_label": "Lógica",
+    "players": "1 ou dupla",
+    "time": "5–30 min",
+    "difficulty": "Intermediário",
+    "mode": "Guia de exploração",
+    "tags": [
+      "hipóteses",
+      "mecanismo",
+      "sequência"
+    ],
+    "objective": "Descobrir como abrir a caixa e, se possível, fechá-la novamente sem danificar o mecanismo.",
+    "intro": [
+      "Caixas secretas escondem o modo de abertura na própria construção. Uma peça pode deslizar poucos milímetros, uma face pode funcionar como tampa ou duas ações podem precisar ocorrer em ordem específica.",
+      "O nome “Caixa de Pandora” é uma identificação do exemplar. Sem examinar o objeto, não é possível afirmar qual mecanismo ele utiliza; por isso, a página ensina um processo de investigação."
+    ],
+    "steps": [
+      {
+        "title": "Observe sem mover",
+        "text": "Compare veios, emendas, fendas, pequenas diferenças de altura e partes com possível folga."
+      },
+      {
+        "title": "Teste com delicadeza",
+        "text": "Deslize, pressione ou gire uma região por vez, usando pouca força."
+      },
+      {
+        "title": "Registre efeitos",
+        "text": "Quando algo se mover, anote a direção e verifique se outra parte ganhou liberdade."
+      },
+      {
+        "title": "Reproduza a sequência",
+        "text": "Depois de abrir, repita o processo devagar e tente fechar a caixa para validar sua compreensão."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Formulação de hipóteses",
+        "text": "Transformar detalhes do objeto em possibilidades de mecanismo."
+      },
+      {
+        "title": "Controle de variáveis",
+        "text": "Alterar uma ação por vez e comparar resultados."
+      },
+      {
+        "title": "Sequenciamento",
+        "text": "Identificar dependências entre movimentos sucessivos."
+      }
+    ],
+    "mediation": [
+      "Que detalhe da superfície parece funcional e não apenas decorativo?",
+      "O movimento que você encontrou é causa ou consequência de outro?",
+      "Como provar que sua sequência funciona e não foi acaso?"
+    ],
+    "adaptations": [
+      "Use iluminação lateral para destacar emendas e diferenças de relevo.",
+      "Uma pessoa pode explorar pelo tato enquanto outra registra verbalmente as mudanças.",
+      "Ofereça pistas em níveis: face relevante, tipo de movimento e, somente depois, ordem aproximada."
+    ],
+    "care": "Não bata, torça ou use ferramentas. Uma caixa de mecanismo oculto deve abrir com movimentos previstos pelo projeto.",
+    "sources": []
+  },
+  {
+    "id": "a-gaiola",
+    "title": "A Gaiola",
+    "subtitle": "Estrutura interligada de madeira",
+    "summary": "Peças entalhadas formam uma estrutura rígida que depende de uma peça-chave para começar a desmontagem.",
+    "image": "a_gaiola.webp",
+    "image_alt": "Quebra-cabeça de madeira com várias peças cruzadas em forma de gaiola",
+    "category": "montagem",
+    "category_label": "Montagem 3D",
+    "players": "1 ou dupla",
+    "time": "10–40 min",
+    "difficulty": "Avançado",
+    "mode": "Guia de exploração",
+    "tags": [
+      "peça-chave",
+      "encaixe",
+      "estrutura"
+    ],
+    "objective": "Desmontar a estrutura em peças separadas e remontá-la sem usar força.",
+    "intro": [
+      "A Gaiola é um quebra-cabeça interligado: as peças parecem bloquear umas às outras, mas há uma sequência em que certos deslocamentos liberam novos graus de movimento.",
+      "A forma exata dos entalhes varia entre modelos. O método mais seguro é procurar folgas, documentar cada etapa e tratar a remontagem como parte do desafio."
+    ],
+    "steps": [
+      {
+        "title": "Localize a folga",
+        "text": "Gire a estrutura e teste pequenos deslocamentos. A peça inicial costuma ter um pouco mais de movimento."
+      },
+      {
+        "title": "Desmonte em ordem",
+        "text": "Retire apenas a peça liberada e organize cada componente na sequência de saída."
+      },
+      {
+        "title": "Estude as ranhuras",
+        "text": "Compare profundidade e direção dos entalhes antes de tentar remontar."
+      },
+      {
+        "title": "Recrie o núcleo",
+        "text": "Monte primeiro o conjunto central e deixe a peça-chave para travar a estrutura no final."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Relações de dependência",
+        "text": "Entender que o movimento de uma peça depende da posição de outras."
+      },
+      {
+        "title": "Documentação",
+        "text": "Usar ordem, desenho ou fotografia como ferramenta de pensamento."
+      },
+      {
+        "title": "Persistência estratégica",
+        "text": "Mudar a hipótese, não apenas repetir o mesmo movimento."
+      }
+    ],
+    "mediation": [
+      "Qual peça se move e em quais direções?",
+      "O que a ranhura desta peça revela sobre a posição da próxima?",
+      "A ordem de montagem é exatamente o inverso da desmontagem?"
+    ],
+    "adaptations": [
+      "Use etiquetas removíveis com números para registrar a ordem das peças.",
+      "Apoie o objeto sobre material antiderrapante durante a exploração.",
+      "Ofereça uma fotografia do núcleo parcialmente montado como pista intermediária."
+    ],
+    "care": "Verifique farpas e rachaduras antes do uso. Resistência forte indica encaixe incorreto ou peça ainda travada.",
+    "sources": []
+  },
+  {
+    "id": "bola-prisioneira",
+    "title": "Bola Prisioneira",
+    "subtitle": "Enigma de libertação e percurso",
+    "summary": "Uma bola parece presa dentro da estrutura; o desafio é compreender as passagens e restrições do mecanismo.",
+    "image": "bola_prisioneira.webp",
+    "image_alt": "Bola de madeira presa dentro de uma estrutura cilíndrica com hastes",
+    "category": "desenlace",
+    "category_label": "Desenlace",
+    "players": "1 ou dupla",
+    "time": "5–30 min",
+    "difficulty": "Intermediário",
+    "mode": "Guia de exploração",
+    "tags": [
+      "percurso",
+      "restrições",
+      "hipóteses"
+    ],
+    "objective": "Descobrir se e como a bola pode sair da estrutura usando apenas os movimentos permitidos pelo próprio objeto.",
+    "intro": [
+      "A aparência sugere uma prisão impossível, mas o mecanismo pode envolver alinhamento, rotação, passagem por uma abertura específica ou deslocamento de outra peça.",
+      "Há modelos em que a bola é removível e outros em que ela serve apenas como elemento móvel. Confirme o objetivo no exemplar ou na embalagem antes de apresentar a atividade."
+    ],
+    "steps": [
+      {
+        "title": "Teste a mobilidade",
+        "text": "Observe até onde a bola e cada componente conseguem se mover sem pressão."
+      },
+      {
+        "title": "Compare aberturas",
+        "text": "Verifique dimensões, ângulos e posições em que a bola se aproxima da borda."
+      },
+      {
+        "title": "Procure alinhamentos",
+        "text": "Gire ou incline a estrutura lentamente e veja se duas restrições deixam de atuar ao mesmo tempo."
+      },
+      {
+        "title": "Valide o objetivo",
+        "text": "Se nenhum percurso físico for possível, não force. O enigma pode depender de outra peça ou não prever remoção total."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Análise de restrições",
+        "text": "Distinguir movimentos possíveis, bloqueados e condicionais."
+      },
+      {
+        "title": "Geometria prática",
+        "text": "Relacionar diâmetro, abertura, ângulo e orientação."
+      },
+      {
+        "title": "Ceticismo produtivo",
+        "text": "Revisar a própria interpretação do objetivo quando os dados não a sustentam."
+      }
+    ],
+    "mediation": [
+      "A bola está presa pelo tamanho, pela posição ou por outro mecanismo?",
+      "Que orientação maximiza o espaço disponível?",
+      "Como saber se a hipótese de retirar a bola é compatível com a construção?"
+    ],
+    "adaptations": [
+      "Use uma base acolchoada para permitir inclinação sem ruído ou deslizamento.",
+      "Descreva as posições como em um relógio para facilitar orientação verbal.",
+      "Permita investigação cooperativa, com uma pessoa manipulando e outra observando lateralmente."
+    ],
+    "care": "Não tente afastar ou entortar as hastes. A estrutura deve permanecer íntegra durante toda a investigação.",
+    "sources": []
+  },
+  {
+    "id": "danca-das-cores",
+    "title": "Dança das Cores",
+    "subtitle": "Padrões, classificação e transformação",
+    "summary": "Discos coloridos podem ser reorganizados para reproduzir, completar ou inventar padrões no tabuleiro.",
+    "image": "danca_das_cores.webp",
+    "image_alt": "Tabuleiro quadrado de madeira com discos de várias cores",
+    "category": "padroes",
+    "category_label": "Padrões",
+    "players": "1 ou grupo",
+    "time": "5–25 min",
+    "difficulty": "Adaptável",
+    "mode": "Proposta de uso",
+    "tags": [
+      "cores",
+      "sequências",
+      "classificação"
+    ],
+    "objective": "Reorganizar as peças segundo um padrão escolhido ou um cartão-desafio, explicando a regra usada.",
+    "intro": [
+      "A imagem não permite identificar uma regra comercial única. Em vez de inventá-la, o catálogo apresenta possibilidades de uso para um tabuleiro de discos coloridos.",
+      "O mesmo material pode gerar desafios de reprodução, simetria, contagem, memória e criação de padrões. O importante é declarar a regra antes de começar."
+    ],
+    "steps": [
+      {
+        "title": "Escolha o desafio",
+        "text": "Use uma fotografia, uma sequência verbal ou uma regra, como “nenhuma cor igual lado a lado”."
+      },
+      {
+        "title": "Defina os movimentos",
+        "text": "Combine se as peças podem ser trocadas livremente, deslizadas ou movidas uma por vez."
+      },
+      {
+        "title": "Resolva e explique",
+        "text": "Ao terminar, descreva o padrão e a estratégia. Uma solução sem explicação pode esconder regras diferentes."
+      },
+      {
+        "title": "Crie outra versão",
+        "text": "Convide o grupo a produzir um novo desafio, testar se ele é possível e escrever instruções claras."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Classificação",
+        "text": "Agrupar e comparar por cor, posição, frequência ou vizinhança."
+      },
+      {
+        "title": "Generalização",
+        "text": "Expressar em palavras a regra que organiza um arranjo."
+      },
+      {
+        "title": "Criação de problemas",
+        "text": "Projetar desafios possíveis, verificáveis e comunicáveis."
+      }
+    ],
+    "mediation": [
+      "Qual regra explica todas as posições, e não apenas algumas?",
+      "Há mais de uma solução para o mesmo desafio?",
+      "Como adaptar o padrão para alguém que não distingue determinadas cores?"
+    ],
+    "adaptations": [
+      "Associe cores a texturas, números ou símbolos para não depender apenas da percepção cromática.",
+      "Reduza o número de discos e aumente gradualmente a complexidade do padrão.",
+      "Permita que o desafio seja ditado, fotografado ou representado com cartões táteis."
+    ],
+    "care": "Não apresente este guia como regra oficial do produto sem localizar a embalagem ou o manual do exemplar.",
+    "sources": []
+  },
+  {
+    "id": "estrela-magica",
+    "title": "Estrela Mágica",
+    "subtitle": "Composição geométrica em uma moldura",
+    "summary": "Peças geométricas devem reconstruir uma estrela dentro do contorno circular, conciliando bordas e espaços internos.",
+    "image": "estrela_magica.webp",
+    "image_alt": "Quebra-cabeça circular de madeira com peças triangulares formando uma estrela",
+    "category": "montagem",
+    "category_label": "Montagem",
+    "players": "1 ou dupla",
+    "time": "5–30 min",
+    "difficulty": "Intermediário",
+    "mode": "Guia de exploração",
+    "tags": [
+      "formas",
+      "simetria",
+      "composição"
+    ],
+    "objective": "Usar todas as peças para recompor a figura dentro da moldura, sem sobreposição nem espaços indevidos.",
+    "intro": [
+      "A Estrela Mágica é um problema de composição plana. As peças precisam satisfazer duas condições ao mesmo tempo: formar o desenho interno e respeitar o contorno externo.",
+      "A moldura funciona como informação. Em vez de testar posições ao acaso, observe ângulos, pontas, lados retos e possíveis eixos de simetria."
+    ],
+    "steps": [
+      {
+        "title": "Classifique as peças",
+        "text": "Compare ângulos, tamanhos, lados retos e combinações que podem formar pontas."
+      },
+      {
+        "title": "Use o contorno",
+        "text": "Comece pelas peças que parecem compatíveis com a borda circular ou com pontos fixos da moldura."
+      },
+      {
+        "title": "Procure simetria",
+        "text": "Teste se posições opostas exigem formas equivalentes ou espelhadas."
+      },
+      {
+        "title": "Verifique o conjunto",
+        "text": "Uma peça bem encaixada isoladamente pode inviabilizar as demais. Avalie sempre o espaço restante."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Percepção de forma",
+        "text": "Relacionar ângulos, bordas e partes de uma figura maior."
+      },
+      {
+        "title": "Composição e decomposição",
+        "text": "Ver o todo como combinação de unidades geométricas."
+      },
+      {
+        "title": "Simetria",
+        "text": "Usar regularidades para reduzir possibilidades de tentativa."
+      }
+    ],
+    "mediation": [
+      "Quais peças podem formar uma ponta da estrela?",
+      "O contorno externo ou o desenho interno oferece mais informação?",
+      "Que espaço restaria se esta peça fosse girada?"
+    ],
+    "adaptations": [
+      "Contorne as peças em papel para permitir testes sem manipular o material original.",
+      "Marque peças semelhantes com símbolos em relevo.",
+      "Ofereça uma imagem parcial com duas ou três peças já posicionadas."
+    ],
+    "care": "Mantenha todas as peças juntas e registre a configuração montada antes de emprestar o jogo.",
+    "sources": []
+  },
+  {
+    "id": "hora-do-rush",
+    "title": "Hora do Rush",
+    "subtitle": "Lógica de deslocamento em grade",
+    "summary": "Mova os veículos apenas no sentido em que estão orientados até liberar a saída para o carro-alvo.",
+    "image": "hora_do_rush.webp",
+    "image_alt": "Tabuleiro do jogo Hora do Rush com veículos coloridos em uma grade",
+    "category": "logica",
+    "category_label": "Lógica",
+    "players": "1",
+    "time": "5–20 min",
+    "difficulty": "Progressivo",
+    "mode": "Regra conhecida",
+    "tags": [
+      "sequência",
+      "planejamento",
+      "deslocamento"
+    ],
+    "objective": "Retirar o carro-alvo pela saída, deslocando os demais veículos sem levantá-los ou girá-los.",
+    "intro": [
+      "Hora do Rush apresenta configurações iniciais em cartões-desafio. Cada veículo só desliza para frente e para trás na direção em que está colocado.",
+      "Resolver exige descobrir qual bloqueio depende de outro. Muitas jogadas aparentemente afastam o carro da saída, mas criam o espaço necessário para uma sequência futura."
+    ],
+    "steps": [
+      {
+        "title": "Monte o cartão",
+        "text": "Reproduza a posição inicial exatamente como aparece no desafio, incluindo orientação e localização dos veículos."
+      },
+      {
+        "title": "Respeite as restrições",
+        "text": "Deslize cada veículo apenas em seu eixo. Não levante, gire ou retire peças."
+      },
+      {
+        "title": "Libere a faixa",
+        "text": "Identifique o primeiro veículo que bloqueia o carro-alvo e quais outros impedem que ele se mova."
+      },
+      {
+        "title": "Compare soluções",
+        "text": "Depois de resolver, tente reduzir o número de movimentos ou explicar a cadeia de dependências."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Planejamento sequencial",
+        "text": "Organizar movimentos em ordem de dependência."
+      },
+      {
+        "title": "Inibição",
+        "text": "Evitar uma jogada imediata quando ela bloqueia etapas futuras."
+      },
+      {
+        "title": "Representação de estado",
+        "text": "Comparar a posição atual com a meta e com estados anteriores."
+      }
+    ],
+    "mediation": [
+      "Qual é o bloqueio direto e qual é o bloqueio do bloqueio?",
+      "Que veículo precisa se afastar temporariamente de sua posição ideal?",
+      "Como provar que um movimento foi necessário?"
+    ],
+    "adaptations": [
+      "Use cartões ampliados ou uma fotografia do desafio com alto contraste.",
+      "Uma pessoa pode indicar os movimentos enquanto outra desloca os veículos.",
+      "Ofereça pistas que nomeiem apenas o primeiro veículo relevante, sem mostrar a sequência completa."
+    ],
+    "care": "Confira se o cartão pertence à mesma edição do tabuleiro. Quantidade e formato de peças podem variar entre versões.",
+    "sources": [
+      {
+        "label": "ThinkFun — página oficial de Rush Hour",
+        "url": "https://www.thinkfun.com/en-US/products/educational-games/rush-hour-76582"
+      },
+      {
+        "label": "ThinkFun — versão digital com regras",
+        "url": "https://rushhourgame.thinkfun.com/"
+      }
+    ]
+  },
+  {
+    "id": "o-carrossel",
+    "title": "O Carrossel",
+    "subtitle": "Desenlace em estrutura cilíndrica",
+    "summary": "Uma argola envolve o cilindro e parece bloqueada; a solução depende de compreender folgas, percurso e peças móveis.",
+    "image": "o_carrossel.webp",
+    "image_alt": "Quebra-cabeça cilíndrico de madeira com uma argola escura ao redor",
+    "category": "desenlace",
+    "category_label": "Desenlace",
+    "players": "1 ou dupla",
+    "time": "5–30 min",
+    "difficulty": "Intermediário",
+    "mode": "Guia de exploração",
+    "tags": [
+      "argola",
+      "percurso",
+      "mecanismo"
+    ],
+    "objective": "Descobrir o percurso que libera a argola — ou outra peça-alvo — e depois restaurar a configuração inicial.",
+    "intro": [
+      "O Carrossel parece simples porque há poucas peças visíveis, mas a estrutura cilíndrica esconde relações de tamanho e passagem. O movimento útil pode exigir levar a argola a uma posição pouco intuitiva.",
+      "Sem acesso ao mecanismo físico, não é seguro publicar uma solução específica. As orientações priorizam observação, registro e conservação do objeto."
+    ],
+    "steps": [
+      {
+        "title": "Observe a estrutura",
+        "text": "Procure fendas, peças deslizantes, mudanças de diâmetro e aberturas parcialmente escondidas."
+      },
+      {
+        "title": "Teste a folga",
+        "text": "Mova a argola ao longo do cilindro e identifique onde há mais espaço ou acesso a outra peça."
+      },
+      {
+        "title": "Combine movimentos",
+        "text": "Experimente manter uma parte deslocada enquanto gira ou passa a argola por outra região."
+      },
+      {
+        "title": "Refaça o caminho",
+        "text": "Após liberar a peça, remonte o quebra-cabeça para confirmar a sequência e devolvê-lo completo."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Percepção de mecanismo",
+        "text": "Inferir funções a partir de pequenas diferenças na forma."
+      },
+      {
+        "title": "Coordenação bimanual",
+        "text": "Sustentar uma posição enquanto outra peça é movida."
+      },
+      {
+        "title": "Memória de percurso",
+        "text": "Registrar uma sequência espacial e reproduzi-la ao contrário."
+      }
+    ],
+    "mediation": [
+      "Onde a argola ganha mais folga?",
+      "Alguma peça precisa permanecer pressionada ou deslocada?",
+      "Você consegue dividir a solução em estados intermediários?"
+    ],
+    "adaptations": [
+      "Use uma base antiderrapante para estabilizar o cilindro.",
+      "Explore em dupla quando a tarefa exigir manter duas peças em posições diferentes.",
+      "Marque estados intermediários com fotografias ou desenhos simples."
+    ],
+    "care": "Não tente alargar a argola nem desmontar o objeto com ferramentas. Preserve as folgas originais do mecanismo.",
+    "sources": []
+  },
+  {
+    "id": "bilboque",
+    "title": "Bilboquê",
+    "subtitle": "Brinquedo tradicional de recepção",
+    "summary": "Lance a peça presa pelo cordão e tente recebê-la no copo ou encaixe do cabo com controle e ritmo.",
+    "image": "bilboque.webp",
+    "image_alt": "Bilboquê de madeira com copo, haste e bola presa por cordão",
+    "category": "habilidade",
+    "category_label": "Habilidade",
+    "players": "1 por vez",
+    "time": "5–15 min",
+    "difficulty": "Inicial a progressivo",
+    "mode": "Prática por tentativas",
+    "tags": [
+      "coordenação",
+      "trajetória",
+      "ritmo"
+    ],
+    "objective": "Fazer a peça presa pelo cordão subir e recebê-la no encaixe do bilboquê sem atingir pessoas ou objetos.",
+    "intro": [
+      "O bilboquê é uma família de brinquedos de copo e bola encontrada em diferentes lugares e épocas. Formas e nomes variam, mas o princípio é controlar uma peça presa por cordão e recebê-la em um suporte.",
+      "A prática melhora quando a pessoa observa trajetória e tempo, não quando apenas aumenta a força do lançamento."
+    ],
+    "steps": [
+      {
+        "title": "Prepare o espaço",
+        "text": "Verifique o cordão e mantenha distância de pessoas, lâmpadas, telas e vidros."
+      },
+      {
+        "title": "Faça um lançamento curto",
+        "text": "Mova a mão de baixo para cima, mantendo a peça próxima ao eixo do brinquedo."
+      },
+      {
+        "title": "Acompanhe a descida",
+        "text": "Posicione o copo sob a peça e amorteça a recepção com um pequeno movimento para baixo."
+      },
+      {
+        "title": "Ajuste uma coisa por vez",
+        "text": "Compare altura, direção e tempo. Evite mudar todos os aspectos do movimento em cada tentativa."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Coordenação olho-mão",
+        "text": "Relacionar trajetória visual e posicionamento do objeto."
+      },
+      {
+        "title": "Ritmo",
+        "text": "Sincronizar lançamento, espera e recepção."
+      },
+      {
+        "title": "Aprendizagem motora",
+        "text": "Usar o resultado de cada tentativa para ajustar a seguinte."
+      }
+    ],
+    "mediation": [
+      "A peça está subindo reta ou descrevendo um arco?",
+      "O copo chega cedo ou tarde ao ponto de recepção?",
+      "Que mudança pequena você testará na próxima tentativa?"
+    ],
+    "adaptations": [
+      "Comece com trajetórias menores e permita segurar o cordão mais próximo da peça, sem enrolá-lo na mão.",
+      "Use apoio para o braço ou pratique sentado quando isso aumentar estabilidade e segurança.",
+      "Registre tentativas bem-sucedidas por descrição de estratégia, não apenas por quantidade."
+    ],
+    "care": "Inspecione o cordão antes do uso. Suspenda a atividade se houver desgaste, nó apertado junto à peça ou risco de desprendimento.",
+    "sources": []
+  }
+]

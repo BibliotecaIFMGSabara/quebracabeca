@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Catálogo educativo de jogos de estratégia, brinquedos de habilidade e quebra-cabeças de lógica e montagem.">
+  <meta name="theme-color" content="#1f6546">
+  <meta property="og:title" content="Acervo de Jogos e Quebra-Cabeças">
+  <meta property="og:description" content="Escolha um desafio, conheça o objetivo e encontre sugestões de mediação e acessibilidade.">
+  <meta property="og:type" content="website">
+  <title>Acervo de Jogos e Quebra-Cabeças</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Acervo de Jogos e Quebra-Cabeças","description":"Catálogo educativo de jogos de estratégia, habilidade, lógica e montagem.","mainEntity":{"@type":"ItemList","numberOfItems":15,"itemListElement":[{"@type":"ListItem","position":1,"name":"Quixo","url":"pages/quixo.html"},{"@type":"ListItem","position":2,"name":"Kendama","url":"pages/kendama.html"},{"@type":"ListItem","position":3,"name":"Argola Prisioneira","url":"pages/argola-prisioneira.html"},{"@type":"ListItem","position":4,"name":"Tetris 3D — Cubo","url":"pages/tetris-3d.html"},{"@type":"ListItem","position":5,"name":"Damas Chinesas","url":"pages/senhoritas-chinesas.html"},{"@type":"ListItem","position":6,"name":"Estrela de Madeira","url":"pages/travas-do-herois.html"},{"@type":"ListItem","position":7,"name":"Tetris 3D — Torre","url":"pages/tetris-3d-torre.html"},{"@type":"ListItem","position":8,"name":"Caixa de Pandora","url":"pages/a-caixa-de-pandora.html"},{"@type":"ListItem","position":9,"name":"A Gaiola","url":"pages/a-gaiola.html"},{"@type":"ListItem","position":10,"name":"Bola Prisioneira","url":"pages/bola-prisioneira.html"},{"@type":"ListItem","position":11,"name":"Dança das Cores","url":"pages/danca-das-cores.html"},{"@type":"ListItem","position":12,"name":"Estrela Mágica","url":"pages/estrela-magica.html"},{"@type":"ListItem","position":13,"name":"Hora do Rush","url":"pages/hora-do-rush.html"},{"@type":"ListItem","position":14,"name":"O Carrossel","url":"pages/o-carrossel.html"},{"@type":"ListItem","position":15,"name":"Bilboquê","url":"pages/bilboque.html"}]}}</script>
+</head>
+<body class="home-page">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="index.html" aria-label="Página inicial do acervo">
+        <span class="brand-mark" aria-hidden="true">◇</span>
+        <span>
+          <strong>Acervo de desafios</strong>
+          <small>jogar, observar, conversar</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#jogos">Jogos</a>
+        <a href="#como-usar">Como usar</a>
+        <a href="#sobre">Sobre</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Catálogo educativo</p>
+          <h1 id="hero-title">Um acervo para pensar com as mãos</h1>
+          <p class="hero-lead">Jogos de estratégia, brinquedos de habilidade e quebra-cabeças de montagem. Escolha pelo tipo de desafio, experimente e torne o caminho da solução tão importante quanto a resposta.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#jogos">Explorar 15 desafios</a>
+            <a class="button button-quiet" href="#como-usar">Ver proposta de uso</a>
+          </div>
+          <p class="hero-note"><strong>Importante:</strong> errar não é falhar no jogo; é produzir informação para a próxima tentativa.</p>
+        </div>
+        <div class="hero-panel" aria-label="Princípios do acervo">
+          <p class="panel-kicker">O jogo não ensina sozinho</p>
+          <h2>A mediação transforma tentativa em experiência.</h2>
+          <ul class="principle-list">
+            <li><span>01</span> Formular uma hipótese antes de mover.</li>
+            <li><span>02</span> Observar o que mudou depois da ação.</li>
+            <li><span>03</span> Explicar, comparar e revisar estratégias.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog-section" id="jogos" aria-labelledby="catalog-title">
+      <div class="shell">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">Coleção</p>
+            <h2 id="catalog-title">Encontre um desafio</h2>
+            <p>Pesquise pelo nome, habilidade ou tipo de experiência.</p>
+          </div>
+          <p class="result-count" aria-live="polite"><strong id="result-count">15</strong> jogos exibidos</p>
+        </div>
+
+        <div class="catalog-tools" role="search">
+          <div class="search-field">
+            <label for="game-search">Buscar no acervo</label>
+            <div class="input-wrap">
+              <span aria-hidden="true">⌕</span>
+              <input id="game-search" type="search" placeholder="Ex.: estratégia, cores, coordenação…" autocomplete="off">
+            </div>
+          </div>
+          <div class="filter-group" aria-labelledby="filter-label">
+            <span id="filter-label" class="filter-label">Filtrar por tipo</span>
+            <div class="filter-buttons">
+              <button class="filter-button is-active" type="button" data-filter="todos" aria-pressed="true">Todos</button>
+              <button class="filter-button" type="button" data-filter="estrategia" aria-pressed="false">Estratégia</button>
+              <button class="filter-button" type="button" data-filter="habilidade" aria-pressed="false">Habilidade</button>
+              <button class="filter-button" type="button" data-filter="desenlace" aria-pressed="false">Desenlace</button>
+              <button class="filter-button" type="button" data-filter="montagem" aria-pressed="false">Montagem 3D</button>
+              <button class="filter-button" type="button" data-filter="logica" aria-pressed="false">Lógica</button>
+              <button class="filter-button" type="button" data-filter="padroes" aria-pressed="false">Padrões</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="game-grid" id="game-grid">
+          <article class="game-card" data-category="estrategia" data-search="quixo estrategia de alinhamento com cubos retire um cubo da borda, marque-o e empurre uma fileira: cada jogada modifica todo o tabuleiro. estrategia planejamento antecipacao tabuleiro antecipacao leitura de configuracao argumentacao">
+            <a class="game-card-link" href="pages/quixo.html" aria-label="Conhecer Quixo">
+              <div class="game-card-media">
+                <img src="images/quixo.webp" alt="Tabuleiro de Quixo com cubos marcados por X e O" width="960" height="640"  decoding="async">
+                <span class="category-badge">Estratégia</span>
+              </div>
+              <div class="game-card-body">
+                <div class="game-card-heading">
+                  <h3>Quixo</h3>
+                  <span aria-hidden="true">↗</span>
+                </div>
+                <p>Retire um cubo da borda, marque-o e empurre uma fileira: cada jogada modifica todo o tabuleiro.</p>
+                <dl class="card-meta">
+                  <div><dt>Participantes</dt><dd>2 ou 4</dd></div>
+                  <div><dt>Tempo</dt><dd>15–30 min</dd></div>
+                </dl>
+                <ul class="tag-list" aria-label="Habilidades e características">
+<li>planejamento</li><li>antecipação</li><li>tabuleiro</li>                </ul>
+              </div>
+            </a>
+          </article>
+          <article class="game-card" data-category="habilidade" data-search="kendama coordenacao, ritmo e precisao um brinquedo de habilidade em que a bola e recebida nos copos ou encaixada na ponta da haste. habilidade coordenacao ritmo persistencia coordenacao global ajuste por feedback autorregulacao">
+            <a class="game-card-link" href="pages/kendama.html" aria-label="Conhecer Kendama">
+              <div class="game-card-media">
+                <img src="images/kendama.webp" alt="Kendama de madeira com bola vermelha presa por um cordão" width="960" height="640"  decoding="async">
+                <span class="category-badge">Habilidade</span>
+              </div>
+              <div class="game-card-body">
+                <div class="game-card-heading">
+                  <h3>Kendama</h3>
+                  <span aria-hidden="true">↗</span>
+                </div>
+                <p>Um brinquedo de habilidade em que a bola é recebida nos copos ou encaixada na ponta da haste.</p>
+                <dl class="card-meta">
+                  <div><dt>Participantes</dt><dd>1 por vez</dd></div>
+                  <div><dt>Tempo</dt><dd>5–20 min</dd></div>
+                </dl>
+                <ul class="tag-list" aria-label="Habilidades e características">
+<li>coordenação</li><li>ritmo</li><li>persistência</li>                </ul>
+              </div>
+            </a>
+          </article>
+          <article class="game-card" data-category="desenlace" data-search="argola prisioneira quebra-cabeca de desenlace cordao, argola e estrutura parecem inseparaveis, mas uma sequencia de movimentos pode mudar essa relacao. desenlace pensamento lateral sequencia cordao rastreamento de percurso pensamento reversivel controle de impulso">
+            <a class="game-card-link" href="pages/argola-prisioneira.html" aria-label="Conhecer Argola Prisioneira">
+              <div class="game-card-media">
+                <img src="images/argola_prisioneira.svg" alt="Ilustração esquemática de uma argola presa por um cordão" width="960" height="640"  decoding="async">
+                <span class="category-badge">Desenlace</span>
+              </div>
+              <div class="game-card-body">
+                <div class="game-card-heading">
+                  <h3>Argola Prisioneira</h3>
+                  <span aria-hidden="true">↗</span>
+                </div>
+                <p>Cordão, argola e estrutura parecem inseparáveis, mas uma sequência de movimentos pode mudar essa relação.</p>
+                <dl class="card-meta">
+                  <div><dt>Participantes</dt><dd>1 ou dupla</dd></div>
+                  <div><dt>Tempo</dt><dd>5–30 min</dd></div>
+                </dl>
+                <ul class="tag-list" aria-label="Habilidades e características">
+<li>pensamento lateral</li><li>sequência</li><li>cordão</li>                </ul>
+              </div>
+            </a>
+          </article>
+          <article class="game-card" data-category="montagem" data-search="tetris 3d — cubo montagem espacial com policubos pecas formadas por pequenos cubos devem ocupar todo o volume de um cubo maior, sem vazios nem sobreposicoes. montagem 3d visao espacial policubos composicao rotacao mental conservacao de volume decomposicao">
+            <a class="game-card-link" href="pages/tetris-3d.html" aria-label="Conhecer Tetris 3D — Cubo">
+              <div class="game-card-media">
+                <img src="images/tetris_3d.webp" alt="Cubo de madeira montado com peças geométricas tridimensionais" width="960" height="640" loading="lazy" decoding="async">
+                <span class="category-badge">Montagem 3D</span>
+              </div>
+              <div class="game-card-body">
+                <div class="game-card-heading">
+                  <h3>Tetris 3D — Cubo</h3>
+                  <span aria-hidden="true">↗</span>
+                </div>
+                <p>Peças formadas por pequenos cubos devem ocupar todo o volume de um cubo maior, sem vazios nem sobreposições.</p>
+                <dl class="card-meta">
+                  <div><dt>Participantes</dt><dd>1 ou grupo</dd></div>
+                  <div><dt>Tempo</dt><dd>10–40 min</dd></div>
+                </dl>
+                <ul class="tag-list" aria-label="Habilidades e características">
+<li>visão espacial</li><li>policubos</li><li>composição</li>                </ul>
+              </div>
+            </a>
+          </article>
+          <article class="game-card" data-category="estrategia" data-search="damas chinesas identificado no acervo como “senhoritas chinesas” corrida estrategica por saltos leve suas pecas ate a ponta oposta da estrela, criando cadeias de saltos e caminhos eficientes. estrategia saltos planejamento corrida planejamento de rotas uso do coletivo flexibilidade">
+            <a class="game-card-link" href="pages/senhoritas-chinesas.html" aria-label="Conhecer Damas Chinesas">
+              <div class="game-card-media">
+                <img src="images/senhoritas_chinesas.webp" alt="Tabuleiro de Damas Chinesas em formato de estrela com peças coloridas" width="960" height="640" loading="lazy" decoding="async">
+                <span class="category-badge">Estratégia</span>
+              </div>
+              <div class="game-card-body">
+                <div class="game-card-heading">
+                  <h3>Damas Chinesas</h3>
+                  <span aria-hidden="true">↗</span>
+                </div>
+<p class="catalog-alias">Identificado no acervo como “Senhoritas Chinesas”</p>                <p>Leve suas peças até a ponta oposta da estrela, criando cadeias de saltos e caminhos eficientes.</p>
+                <dl class="card-meta">
+                  <div><dt>Participantes</dt><dd>2, 3, 4 ou 6</dd></div>
+                  <div><dt>Tempo</dt><dd>15–45 min</dd></div>
+                </dl>
+                <ul class="tag-list" aria-label="Habilidades e características">
+<li>saltos</li><li>planejamento</li><li>corrida</li>                </ul>
+              </div>
+            </a>
+          </article>
+          <article class="game-card" data-category="montagem" data-search="estrela de madeira arquivo anterior: “travas dos herois para montar” encaixe tridimensional interligado uma estrela formada por pecas entalhadas so se desmonta e remonta quando a sequencia correta e encontrada. montagem 3d encaixe sequencia percepcao espacial analise estrutural memoria sequencial visualizacao espacial">
+            <a class="game-card-link" href="pages/travas-do-herois.html" aria-label="Conhecer Estrela de Madeira">
+              <div class="game-card-media">
+                <img src="images/travas_do_herois_para_montar.webp" alt="Quebra-cabeça de madeira montado em formato de estrela" width="960" height="640" loading="lazy" decoding="async">
+                <span class="category-badge">Montagem 3D</span>
+              </div>
+              <div class="game-card-body">
+                <div class="game-card-heading">
+                  <h3>Estrela de Madeira</h3>
+                  <span aria-hidden="true">↗</span>
+                </div>
+<p class="catalog-alias">Arquivo anterior: “Travas dos Heróis para Montar”</p>                <p>Uma estrela formada por peças entalhadas só se desmonta e remonta quando a sequência correta é encontrada.</p>
+                <dl class="card-meta">
+                  <div><dt>Participantes</dt><dd>1 ou dupla</dd></div>
+                  <div><dt>Tempo</dt><dd>10–40 min</dd></div>
+                </dl>
+                <ul class="tag-list" aria-label="Habilidades e características">
+<li>encaixe</li><li>sequência</li><li>percepção espacial</li>                </ul>
+              </div>
+            </a>
+          </article>
+          <article class="game-card" data-category="montagem" data-search="tetris 3d — torre empacotamento em estrutura vertical organize pecas tridimensionais dentro de uma moldura alta, controlando orientacao, camadas e espacos vazios. montagem 3d empacotamento camadas rotacao mental planejamento espacial classificacao geometrica revisao de estrategia">
+            <a class="game-card-link" href="pages/tetris-3d-torre.html" aria-label="Conhecer Tetris 3D — Torre">
+              <div class="game-card-media">
+                <img src="images/tetris_3d_de_torre.webp" alt="Moldura vertical de madeira com peças geométricas para montar uma torre" width="960" height="640" loading="lazy" decoding="async">
+                <span class="category-badge">Montagem 3D</span>
+              </div>
+              <div class="game-card-body">
+                <div class="game-card-heading">
+                  <h3>Tetris 3D — Torre</h3>
+                  <span aria-hidden="true">↗</span>
+                </div>
+                <p>Organize peças tridimensionais dentro de uma moldura alta, controlando orientação, camadas e espaços vazios.</p>
+                <dl class="card-meta">
+                  <div><dt>Participantes</dt><dd>1 ou grupo</dd></div>
+                  <div><dt>Tempo</dt><dd>10–40 min</dd></div>
+                </dl>
+                <ul class="tag-list" aria-label="Habilidades e características">
+<li>empacotamento</li><li>camadas</li><li>rotação mental</li>                </ul>
+              </div>
+            </a>
+          </article>
+          <article class="game-card" data-category="logica" data-search="caixa de pandora caixa secreta com mecanismo oculto a abertura depende de descobrir pecas moveis e uma sequencia de acoes, nao de encontrar uma fechadura visivel. logica hipoteses mecanismo sequencia formulacao de hipoteses controle de variaveis sequenciamento">
+            <a class="game-card-link" href="pages/a-caixa-de-pandora.html" aria-label="Conhecer Caixa de Pandora">
+              <div class="game-card-media">
+                <img src="images/a_caixa_de_pandora.webp" alt="Caixa de madeira com abertura lateral, apresentada como quebra-cabeça" width="960" height="640" loading="lazy" decoding="async">
+                <span class="category-badge">Lógica</span>
+              </div>
+              <div class="game-card-body">
+                <div class="game-card-heading">
+                  <h3>Caixa de Pandora</h3>
+                  <span aria-hidden="true">↗</span>
+                </div>
+                <p>A abertura depende de descobrir peças móveis e uma sequência de ações, não de encontrar uma fechadura visível.</p>
+                <dl class="card-meta">
+                  <div><dt>Participantes</dt><dd>1 ou dupla</dd></div>
+                  <div><dt>Tempo</dt><dd>5–30 min</dd></div>
+                </dl>
+                <ul class="tag-list" aria-label="Habilidades e características">
+<li>hipóteses</li><li>mecanismo</li><li>sequência</li>                </ul>
+              </div>
+            </a>
+          </article>
+          <article class="game-card" data-category="montagem" data-search="a gaiola estrutura interligada de madeira pecas entalhadas formam uma estrutura rigida que depende de uma peca-chave para comecar a desmontagem. montagem 3d peca-chave encaixe estrutura relacoes de dependencia documentacao persistencia estrategica">
+            <a class="game-card-link" href="pages/a-gaiola.html" aria-label="Conhecer A Gaiola">
+              <div class="game-card-media">
+                <img src="images/a_gaiola.webp" alt="Quebra-cabeça de madeira com várias peças cruzadas em forma de gaiola" width="960" height="640" loading="lazy" decoding="async">
+                <span class="category-badge">Montagem 3D</span>
+              </div>
+              <div class="game-card-body">
+                <div class="game-card-heading">
+                  <h3>A Gaiola</h3>
+                  <span aria-hidden="true">↗</span>
+                </div>
+                <p>Peças entalhadas formam uma estrutura rígida que depende de uma peça-chave para começar a desmontagem.</p>
+                <dl class="card-meta">
+                  <div><dt>Participantes</dt><dd>1 ou dupla</dd></div>
+                  <div><dt>Tempo</dt><dd>10–40 min</dd></div>
+                </dl>
+                <ul class="tag-list" aria-label="Habilidades e características">
+<li>peça-chave</li><li>encaixe</li><li>estrutura</li>                </ul>
+              </div>
+            </a>
+          </article>
+          <article class="game-card" data-category="desenlace" data-search="bola prisioneira enigma de libertacao e percurso uma bola parece presa dentro da estrutura; o desafio e compreender as passagens e restricoes do mecanismo. desenlace percurso restricoes hipoteses analise de restricoes geometria pratica ceticismo produtivo">
+            <a class="game-card-link" href="pages/bola-prisioneira.html" aria-label="Conhecer Bola Prisioneira">
+              <div class="game-card-media">
+                <img src="images/bola_prisioneira.webp" alt="Bola de madeira presa dentro de uma estrutura cilíndrica com hastes" width="960" height="640" loading="lazy" decoding="async">
+                <span class="category-badge">Desenlace</span>
+              </div>
+              <div class="game-card-body">
+                <div class="game-card-heading">
+                  <h3>Bola Prisioneira</h3>
+                  <span aria-hidden="true">↗</span>
+                </div>
+                <p>Uma bola parece presa dentro da estrutura; o desafio é compreender as passagens e restrições do mecanismo.</p>
+                <dl class="card-meta">
+                  <div><dt>Participantes</dt><dd>1 ou dupla</dd></div>
+                  <div><dt>Tempo</dt><dd>5–30 min</dd></div>
+                </dl>
+                <ul class="tag-list" aria-label="Habilidades e características">
+<li>percurso</li><li>restrições</li><li>hipóteses</li>                </ul>
+              </div>
+            </a>
+          </article>
+          <article class="game-card" data-category="padroes" data-search="danca das cores padroes, classificacao e transformacao discos coloridos podem ser reorganizados para reproduzir, completar ou inventar padroes no tabuleiro. padroes cores sequencias classificacao classificacao generalizacao criacao de problemas">
+            <a class="game-card-link" href="pages/danca-das-cores.html" aria-label="Conhecer Dança das Cores">
+              <div class="game-card-media">
+                <img src="images/danca_das_cores.webp" alt="Tabuleiro quadrado de madeira com discos de várias cores" width="960" height="640" loading="lazy" decoding="async">
+                <span class="category-badge">Padrões</span>
+              </div>
+              <div class="game-card-body">
+                <div class="game-card-heading">
+                  <h3>Dança das Cores</h3>
+                  <span aria-hidden="true">↗</span>
+                </div>
+                <p>Discos coloridos podem ser reorganizados para reproduzir, completar ou inventar padrões no tabuleiro.</p>
+                <dl class="card-meta">
+                  <div><dt>Participantes</dt><dd>1 ou grupo</dd></div>
+                  <div><dt>Tempo</dt><dd>5–25 min</dd></div>
+                </dl>
+                <ul class="tag-list" aria-label="Habilidades e características">
+<li>cores</li><li>sequências</li><li>classificação</li>                </ul>
+              </div>
+            </a>
+          </article>
+          <article class="game-card" data-category="montagem" data-search="estrela magica composicao geometrica em uma moldura pecas geometricas devem reconstruir uma estrela dentro do contorno circular, conciliando bordas e espacos internos. montagem formas simetria composicao percepcao de forma composicao e decomposicao simetria">
+            <a class="game-card-link" href="pages/estrela-magica.html" aria-label="Conhecer Estrela Mágica">
+              <div class="game-card-media">
+                <img src="images/estrela_magica.webp" alt="Quebra-cabeça circular de madeira com peças triangulares formando uma estrela" width="960" height="640" loading="lazy" decoding="async">
+                <span class="category-badge">Montagem</span>
+              </div>
+              <div class="game-card-body">
+                <div class="game-card-heading">
+                  <h3>Estrela Mágica</h3>
+                  <span aria-hidden="true">↗</span>
+                </div>
+                <p>Peças geométricas devem reconstruir uma estrela dentro do contorno circular, conciliando bordas e espaços internos.</p>
+                <dl class="card-meta">
+                  <div><dt>Participantes</dt><dd>1 ou dupla</dd></div>
+                  <div><dt>Tempo</dt><dd>5–30 min</dd></div>
+                </dl>
+                <ul class="tag-list" aria-label="Habilidades e características">
+<li>formas</li><li>simetria</li><li>composição</li>                </ul>
+              </div>
+            </a>
+          </article>
+          <article class="game-card" data-category="logica" data-search="hora do rush logica de deslocamento em grade mova os veiculos apenas no sentido em que estao orientados ate liberar a saida para o carro-alvo. logica sequencia planejamento deslocamento planejamento sequencial inibicao representacao de estado">
+            <a class="game-card-link" href="pages/hora-do-rush.html" aria-label="Conhecer Hora do Rush">
+              <div class="game-card-media">
+                <img src="images/hora_do_rush.webp" alt="Tabuleiro do jogo Hora do Rush com veículos coloridos em uma grade" width="960" height="640" loading="lazy" decoding="async">
+                <span class="category-badge">Lógica</span>
+              </div>
+              <div class="game-card-body">
+                <div class="game-card-heading">
+                  <h3>Hora do Rush</h3>
+                  <span aria-hidden="true">↗</span>
+                </div>
+                <p>Mova os veículos apenas no sentido em que estão orientados até liberar a saída para o carro-alvo.</p>
+                <dl class="card-meta">
+                  <div><dt>Participantes</dt><dd>1</dd></div>
+                  <div><dt>Tempo</dt><dd>5–20 min</dd></div>
+                </dl>
+                <ul class="tag-list" aria-label="Habilidades e características">
+<li>sequência</li><li>planejamento</li><li>deslocamento</li>                </ul>
+              </div>
+            </a>
+          </article>
+          <article class="game-card" data-category="desenlace" data-search="o carrossel desenlace em estrutura cilindrica uma argola envolve o cilindro e parece bloqueada; a solucao depende de compreender folgas, percurso e pecas moveis. desenlace argola percurso mecanismo percepcao de mecanismo coordenacao bimanual memoria de percurso">
+            <a class="game-card-link" href="pages/o-carrossel.html" aria-label="Conhecer O Carrossel">
+              <div class="game-card-media">
+                <img src="images/o_carrossel.webp" alt="Quebra-cabeça cilíndrico de madeira com uma argola escura ao redor" width="960" height="640" loading="lazy" decoding="async">
+                <span class="category-badge">Desenlace</span>
+              </div>
+              <div class="game-card-body">
+                <div class="game-card-heading">
+                  <h3>O Carrossel</h3>
+                  <span aria-hidden="true">↗</span>
+                </div>
+                <p>Uma argola envolve o cilindro e parece bloqueada; a solução depende de compreender folgas, percurso e peças móveis.</p>
+                <dl class="card-meta">
+                  <div><dt>Participantes</dt><dd>1 ou dupla</dd></div>
+                  <div><dt>Tempo</dt><dd>5–30 min</dd></div>
+                </dl>
+                <ul class="tag-list" aria-label="Habilidades e características">
+<li>argola</li><li>percurso</li><li>mecanismo</li>                </ul>
+              </div>
+            </a>
+          </article>
+          <article class="game-card" data-category="habilidade" data-search="bilboque brinquedo tradicional de recepcao lance a peca presa pelo cordao e tente recebe-la no copo ou encaixe do cabo com controle e ritmo. habilidade coordenacao trajetoria ritmo coordenacao olho-mao ritmo aprendizagem motora">
+            <a class="game-card-link" href="pages/bilboque.html" aria-label="Conhecer Bilboquê">
+              <div class="game-card-media">
+                <img src="images/bilboque.webp" alt="Bilboquê de madeira com copo, haste e bola presa por cordão" width="960" height="640" loading="lazy" decoding="async">
+                <span class="category-badge">Habilidade</span>
+              </div>
+              <div class="game-card-body">
+                <div class="game-card-heading">
+                  <h3>Bilboquê</h3>
+                  <span aria-hidden="true">↗</span>
+                </div>
+                <p>Lance a peça presa pelo cordão e tente recebê-la no copo ou encaixe do cabo com controle e ritmo.</p>
+                <dl class="card-meta">
+                  <div><dt>Participantes</dt><dd>1 por vez</dd></div>
+                  <div><dt>Tempo</dt><dd>5–15 min</dd></div>
+                </dl>
+                <ul class="tag-list" aria-label="Habilidades e características">
+<li>coordenação</li><li>trajetória</li><li>ritmo</li>                </ul>
+              </div>
+            </a>
+          </article>
+        </div>
+        <div class="empty-state" id="empty-state" hidden>
+          <h3>Nenhum jogo encontrado</h3>
+          <p>Tente outra palavra ou selecione “Todos”.</p>
+          <button class="button button-primary" type="button" id="clear-filters">Limpar busca e filtros</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="use-section" id="como-usar" aria-labelledby="use-title">
+      <div class="shell">
+        <div class="section-heading narrow-heading">
+          <p class="eyebrow">Proposta de uso</p>
+          <h2 id="use-title">Do desafio à conversa</h2>
+          <p>Um quebra-cabeça pode virar apenas passatempo ou uma situação rica de aprendizagem. A diferença costuma estar nas perguntas feitas durante e depois.</p>
+        </div>
+        <ol class="use-steps">
+          <li>
+            <span>1</span>
+            <div><h3>Escolha pela experiência</h3><p>Considere mobilidade, tempo disponível, número de participantes e o tipo de raciocínio que deseja observar.</p></div>
+          </li>
+          <li>
+            <span>2</span>
+            <div><h3>Adie a solução</h3><p>Ofereça pistas graduais. Mostrar a resposta cedo demais fecha o problema como quem fecha um livro na melhor página.</p></div>
+          </li>
+          <li>
+            <span>3</span>
+            <div><h3>Peça uma narrativa</h3><p>Depois da tentativa, convide a pessoa a explicar o que pensou, o que mudou e qual hipótese abandonou.</p></div>
+          </li>
+        </ol>
+        <aside class="ethics-note">
+          <strong>Não use os jogos como teste informal de inteligência.</strong>
+          <p>Velocidade, experiência prévia, coordenação motora, visão, ansiedade e familiaridade com o material influenciam o desempenho. O catálogo descreve possibilidades de mediação, não instrumentos diagnósticos.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="about-section" id="sobre" aria-labelledby="about-title">
+      <div class="shell about-grid">
+        <div>
+          <p class="eyebrow">Sobre o catálogo</p>
+          <h2 id="about-title">Informação suficiente para começar — e cautela para não inventar</h2>
+        </div>
+        <div class="about-copy">
+          <p>Alguns itens têm regras publicadas por fabricantes ou associações. Outros são brinquedos de madeira sem marca, manual ou identificação precisa. Nesses casos, as páginas apresentam <strong>guias de exploração</strong> e deixam explícito o que precisa ser confirmado no exemplar.</p>
+          <p>Essa distinção é importante: uma descrição bonita, mas falsa, é como uma peça colocada à força — pode até parecer que encaixou, porém compromete toda a estrutura.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div>
+        <strong>Acervo de Jogos e Quebra-Cabeças</strong>
+        <p>Catálogo educativo para consulta, mediação e experimentação.</p>
+      </div>
+      <p>As regras podem variar conforme a edição ou o exemplar. Preserve todas as peças e evite forçar mecanismos.</p>
+    </div>
+  </footer>
+
+  <script src="js/site.js" defer></script>
+</body>
+</html>

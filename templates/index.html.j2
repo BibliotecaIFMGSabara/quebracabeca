@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Catálogo educativo de jogos de estratégia, brinquedos de habilidade e quebra-cabeças de lógica e montagem.">
+  <meta name="theme-color" content="#1f6546">
+  <meta property="og:title" content="Acervo de Jogos e Quebra-Cabeças">
+  <meta property="og:description" content="Escolha um desafio, conheça o objetivo e encontre sugestões de mediação e acessibilidade.">
+  <meta property="og:type" content="website">
+  <title>Acervo de Jogos e Quebra-Cabeças</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site.css">
+  <script type="application/ld+json">{{ json_ld | safe }}</script>
+</head>
+<body class="home-page">
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="index.html" aria-label="Página inicial do acervo">
+        <span class="brand-mark" aria-hidden="true">◇</span>
+        <span>
+          <strong>Acervo de desafios</strong>
+          <small>jogar, observar, conversar</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#jogos">Jogos</a>
+        <a href="#como-usar">Como usar</a>
+        <a href="#sobre">Sobre</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Catálogo educativo</p>
+          <h1 id="hero-title">Um acervo para pensar com as mãos</h1>
+          <p class="hero-lead">Jogos de estratégia, brinquedos de habilidade e quebra-cabeças de montagem. Escolha pelo tipo de desafio, experimente e torne o caminho da solução tão importante quanto a resposta.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#jogos">Explorar {{ games|length }} desafios</a>
+            <a class="button button-quiet" href="#como-usar">Ver proposta de uso</a>
+          </div>
+          <p class="hero-note"><strong>Importante:</strong> errar não é falhar no jogo; é produzir informação para a próxima tentativa.</p>
+        </div>
+        <div class="hero-panel" aria-label="Princípios do acervo">
+          <p class="panel-kicker">O jogo não ensina sozinho</p>
+          <h2>A mediação transforma tentativa em experiência.</h2>
+          <ul class="principle-list">
+            <li><span>01</span> Formular uma hipótese antes de mover.</li>
+            <li><span>02</span> Observar o que mudou depois da ação.</li>
+            <li><span>03</span> Explicar, comparar e revisar estratégias.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog-section" id="jogos" aria-labelledby="catalog-title">
+      <div class="shell">
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">Coleção</p>
+            <h2 id="catalog-title">Encontre um desafio</h2>
+            <p>Pesquise pelo nome, habilidade ou tipo de experiência.</p>
+          </div>
+          <p class="result-count" aria-live="polite"><strong id="result-count">{{ games|length }}</strong> jogos exibidos</p>
+        </div>
+
+        <div class="catalog-tools" role="search">
+          <div class="search-field">
+            <label for="game-search">Buscar no acervo</label>
+            <div class="input-wrap">
+              <span aria-hidden="true">⌕</span>
+              <input id="game-search" type="search" placeholder="Ex.: estratégia, cores, coordenação…" autocomplete="off">
+            </div>
+          </div>
+          <div class="filter-group" aria-labelledby="filter-label">
+            <span id="filter-label" class="filter-label">Filtrar por tipo</span>
+            <div class="filter-buttons">
+              <button class="filter-button is-active" type="button" data-filter="todos" aria-pressed="true">Todos</button>
+              {% for category in categories %}
+              <button class="filter-button" type="button" data-filter="{{ category.id }}" aria-pressed="false">{{ category.label }}</button>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+
+        <div class="game-grid" id="game-grid">
+          {% for game in games %}
+          <article class="game-card" data-category="{{ game.category }}" data-search="{{ game.search_text }}">
+            <a class="game-card-link" href="pages/{{ game.id }}.html" aria-label="Conhecer {{ game.title }}">
+              <div class="game-card-media">
+                <img src="images/{{ game.image }}" alt="{{ game.image_alt }}" width="960" height="640" {% if loop.index > 3 %}loading="lazy"{% endif %} decoding="async">
+                <span class="category-badge">{{ game.category_label }}</span>
+              </div>
+              <div class="game-card-body">
+                <div class="game-card-heading">
+                  <h3>{{ game.title }}</h3>
+                  <span aria-hidden="true">↗</span>
+                </div>
+                {% if game.catalog_alias is defined and game.catalog_alias %}<p class="catalog-alias">{{ game.catalog_alias }}</p>{% endif %}
+                <p>{{ game.summary }}</p>
+                <dl class="card-meta">
+                  <div><dt>Participantes</dt><dd>{{ game.players }}</dd></div>
+                  <div><dt>Tempo</dt><dd>{{ game.time }}</dd></div>
+                </dl>
+                <ul class="tag-list" aria-label="Habilidades e características">
+                  {% for tag in game.tags[:3] %}<li>{{ tag }}</li>{% endfor %}
+                </ul>
+              </div>
+            </a>
+          </article>
+          {% endfor %}
+        </div>
+        <div class="empty-state" id="empty-state" hidden>
+          <h3>Nenhum jogo encontrado</h3>
+          <p>Tente outra palavra ou selecione “Todos”.</p>
+          <button class="button button-primary" type="button" id="clear-filters">Limpar busca e filtros</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="use-section" id="como-usar" aria-labelledby="use-title">
+      <div class="shell">
+        <div class="section-heading narrow-heading">
+          <p class="eyebrow">Proposta de uso</p>
+          <h2 id="use-title">Do desafio à conversa</h2>
+          <p>Um quebra-cabeça pode virar apenas passatempo ou uma situação rica de aprendizagem. A diferença costuma estar nas perguntas feitas durante e depois.</p>
+        </div>
+        <ol class="use-steps">
+          <li>
+            <span>1</span>
+            <div><h3>Escolha pela experiência</h3><p>Considere mobilidade, tempo disponível, número de participantes e o tipo de raciocínio que deseja observar.</p></div>
+          </li>
+          <li>
+            <span>2</span>
+            <div><h3>Adie a solução</h3><p>Ofereça pistas graduais. Mostrar a resposta cedo demais fecha o problema como quem fecha um livro na melhor página.</p></div>
+          </li>
+          <li>
+            <span>3</span>
+            <div><h3>Peça uma narrativa</h3><p>Depois da tentativa, convide a pessoa a explicar o que pensou, o que mudou e qual hipótese abandonou.</p></div>
+          </li>
+        </ol>
+        <aside class="ethics-note">
+          <strong>Não use os jogos como teste informal de inteligência.</strong>
+          <p>Velocidade, experiência prévia, coordenação motora, visão, ansiedade e familiaridade com o material influenciam o desempenho. O catálogo descreve possibilidades de mediação, não instrumentos diagnósticos.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="about-section" id="sobre" aria-labelledby="about-title">
+      <div class="shell about-grid">
+        <div>
+          <p class="eyebrow">Sobre o catálogo</p>
+          <h2 id="about-title">Informação suficiente para começar — e cautela para não inventar</h2>
+        </div>
+        <div class="about-copy">
+          <p>Alguns itens têm regras publicadas por fabricantes ou associações. Outros são brinquedos de madeira sem marca, manual ou identificação precisa. Nesses casos, as páginas apresentam <strong>guias de exploração</strong> e deixam explícito o que precisa ser confirmado no exemplar.</p>
+          <p>Essa distinção é importante: uma descrição bonita, mas falsa, é como uma peça colocada à força — pode até parecer que encaixou, porém compromete toda a estrutura.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div>
+        <strong>Acervo de Jogos e Quebra-Cabeças</strong>
+        <p>Catálogo educativo para consulta, mediação e experimentação.</p>
+      </div>
+      <p>As regras podem variar conforme a edição ou o exemplar. Preserve todas as peças e evite forçar mecanismos.</p>
+    </div>
+  </footer>
+
+  <script src="js/site.js" defer></script>
+</body>
+</html>

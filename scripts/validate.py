@@ -47,6 +47,8 @@ def check_html(path: Path) -> None:
 def check_images() -> None:
     data = json.loads((ROOT / "data" / "jogos.json").read_text(encoding="utf-8"))
     for game in data:
+        if game["image"].startswith(("http://", "https://")):
+            continue
         path = ROOT / "images" / game["image"]
         if not path.exists():
             ERRORS.append(f"Imagem ausente: {path.relative_to(ROOT)}")

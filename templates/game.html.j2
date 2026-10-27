@@ -8,7 +8,7 @@
   <meta property="og:title" content="{{ game.title }} — Acervo de Jogos e Quebra-Cabeças">
   <meta property="og:description" content="{{ game.summary }}">
   <meta property="og:type" content="article">
-  <meta property="og:image" content="../images/{{ game.image }}">
+  <meta property="og:image" content="{% if game.image.startswith('http') %}{{ game.image }}{% else %}../images/{{ game.image }}{% endif %}">
   <title>{{ game.title }} — Acervo de Jogos e Quebra-Cabeças</title>
   <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../css/site.css">
@@ -50,7 +50,7 @@
             </div>
           </div>
           <figure class="detail-image">
-            <img src="../images/{{ game.image }}" alt="{{ game.image_alt }}" width="960" height="640" decoding="async">
+            <img src="{% if game.image.startswith('http') %}{{ game.image }}{% else %}../images/{{ game.image }}{% endif %}" alt="{{ game.image_alt }}" width="960" height="640" decoding="async">
           </figure>
         </div>
       </header>
@@ -139,7 +139,7 @@
         <div class="related-grid">
           {% for related in related_games %}
           <a class="related-card" href="{{ related.id }}.html">
-            <img src="../images/{{ related.image }}" alt="" width="360" height="240" loading="lazy" decoding="async">
+            <img src="{% if related.image.startswith('http') %}{{ related.image }}{% else %}../images/{{ related.image }}{% endif %}" alt="" width="360" height="240" loading="lazy" decoding="async">
             <span><small>{{ related.category_label }}</small><strong>{{ related.title }}</strong></span>
           </a>
           {% endfor %}

@@ -1057,5 +1057,209 @@
     ],
     "care": "Inspecione o cordão antes do uso. Suspenda a atividade se houver desgaste, nó apertado junto à peça ou risco de desprendimento.",
     "sources": []
+  },
+  {
+    "id": "nigma-p5",
+    "title": "Encaixe de Alinhamento Nigma P5",
+    "subtitle": "Alinhamento por rotação de discos",
+    "summary": "Gire os discos no pino e descubra como alinhar as aberturas para completar o desafio sem forçar o mecanismo.",
+    "image": "nigma_p5.svg",
+    "image_alt": "Ilustração esquemática de um quebra-cabeça mecânico com discos alinhados em um pino",
+    "category": "logica",
+    "category_label": "Lógica",
+    "players": "1 ou dupla",
+    "time": "5–30 min",
+    "difficulty": "Intermediário",
+    "mode": "Guia de exploração",
+    "tags": [
+      "alinhamento",
+      "rotação",
+      "padrões"
+    ],
+    "objective": "Girar os discos no pino até alinhar as aberturas e encontrar a configuração que conclui o desafio.",
+    "intro": [
+      "O Encaixe de Alinhamento propõe observar como várias peças circulares se relacionam. Uma rotação pode aproximar uma abertura da posição desejada e, ao mesmo tempo, alterar o alinhamento de outras partes.",
+      "A ficha descreve uma estratégia geral de exploração. Como a sequência exata depende do exemplar, o objetivo é testar movimentos pequenos, observar o resultado e identificar relações entre as peças."
+    ],
+    "steps": [
+      {
+        "title": "Observe a configuração inicial",
+        "text": "Examine os discos, as aberturas e o pino. Identifique quais partes parecem girar de forma independente."
+      },
+      {
+        "title": "Gire uma peça por vez",
+        "text": "Faça uma rotação curta e observe o que mudou. Evite alterar várias peças ao mesmo tempo."
+      },
+      {
+        "title": "Compare os alinhamentos",
+        "text": "Procure padrões nas aberturas e registre mentalmente quais posições aproximam ou afastam o objetivo."
+      },
+      {
+        "title": "Revise a hipótese",
+        "text": "Se um alinhamento bloquear outro, volte à posição anterior e experimente uma sequência diferente, sem aplicar força."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Leitura de padrões",
+        "text": "Comparar posições e reconhecer relações entre aberturas."
+      },
+      {
+        "title": "Planejamento",
+        "text": "Antecipar como a rotação de uma peça pode afetar o resultado."
+      },
+      {
+        "title": "Controle de variáveis",
+        "text": "Modificar um elemento de cada vez para compreender o mecanismo."
+      }
+    ],
+    "mediation": [
+      "Que mudança ocorreu quando você girou apenas este disco?",
+      "Quais aberturas precisam coincidir para que o desafio avance?",
+      "Você consegue explicar uma sequência que quase funcionou e por que não resolveu? "
+    ],
+    "adaptations": [
+      "Uma pessoa pode movimentar as peças enquanto a outra observa e descreve os alinhamentos.",
+      "Use uma fotografia da configuração inicial para comparar posições durante a exploração.",
+      "Ofereça pistas graduais, começando por indicar qual região observar sem revelar uma sequência completa."
+    ],
+    "care": "Não force os discos nem o pino. Se uma peça travar ou exigir pressão excessiva, interrompa o movimento e verifique a posição antes de continuar.",
+    "sources": []
+  },
+  {
+    "id": "nigma-m1",
+    "title": "Labirinto Duplo Nigma M1",
+    "subtitle": "Percurso mecânico em dois níveis",
+    "summary": "Investigue a sequência de movimentos necessária para conduzir o pino pelo labirinto até a saída.",
+    "image": "nigma_m1.svg",
+    "image_alt": "Ilustração esquemática de um quebra-cabeça mecânico de labirinto com pino e caminhos",
+    "category": "labirinto",
+    "category_label": "Labirinto",
+    "players": "1 ou dupla",
+    "time": "5–30 min",
+    "difficulty": "Iniciante",
+    "mode": "Guia de exploração",
+    "tags": [
+      "orientação espacial",
+      "sequência",
+      "atenção"
+    ],
+    "objective": "Encontrar uma sequência de movimentos que conduza o pino pelo percurso até a saída.",
+    "intro": [
+      "O Labirinto Duplo é um desafio de percurso: é preciso acompanhar a posição do pino e perceber quais movimentos permitem avançar entre trechos do caminho.",
+      "A ficha propõe uma exploração sem solução fixa, pois o percurso e os movimentos permitidos devem ser confirmados no exemplar. Observar antes de mover ajuda a evitar tentativas repetidas sem estratégia."
+    ],
+    "steps": [
+      {
+        "title": "Localize início e saída",
+        "text": "Observe o percurso visível e procure identificar onde o pino começa e por onde parece ser possível sair."
+      },
+      {
+        "title": "Acompanhe cada movimento",
+        "text": "Desloque o pino suavemente e observe se ele avança, recua ou encontra uma barreira."
+      },
+      {
+        "title": "Registre o caminho",
+        "text": "Memorize ou anote os trechos já explorados para não repetir a mesma sequência sem uma nova hipótese."
+      },
+      {
+        "title": "Teste alternativas",
+        "text": "Quando encontrar um bloqueio, retorne com cuidado até uma posição anterior e investigue outro caminho permitido."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Orientação espacial",
+        "text": "Relacionar a posição atual do pino às possibilidades do percurso."
+      },
+      {
+        "title": "Raciocínio sequencial",
+        "text": "Organizar movimentos em uma ordem que permita avançar."
+      },
+      {
+        "title": "Atenção e persistência",
+        "text": "Observar bloqueios e usar cada tentativa para rever a estratégia."
+      }
+    ],
+    "mediation": [
+      "Em que ponto o percurso deixou de permitir o avanço?",
+      "Que movimento anterior levou você até esse bloqueio?",
+      "Como pode registrar os trechos já testados para evitar repeti-los?"
+    ],
+    "adaptations": [
+      "Explore em dupla: uma pessoa movimenta o pino e outra acompanha o trajeto e verbaliza as hipóteses.",
+      "Use uma folha para desenhar um mapa simplificado do percurso, se isso ajudar a acompanhar as tentativas.",
+      "Dê pistas sobre a próxima região a observar em vez de indicar todos os movimentos."
+    ],
+    "care": "Não empurre o pino contra as barreiras. Se ele não se mover com suavidade, recue um pouco e procure outra orientação, sem forçar o mecanismo.",
+    "sources": []
+  },
+  {
+    "id": "nigma-m2",
+    "title": "Labirinto com Esfera 3D Nigma M2",
+    "subtitle": "Orientação espacial em três dimensões",
+    "summary": "Coordene os movimentos do labirinto para conduzir uma esfera até a abertura de saída.",
+    "image": "nigma_m2.svg",
+    "image_alt": "Ilustração esquemática de um labirinto tridimensional com esfera",
+    "category": "labirinto",
+    "category_label": "Labirinto",
+    "players": "1 ou dupla",
+    "time": "5–30 min",
+    "difficulty": "Intermediário",
+    "mode": "Guia de exploração",
+    "tags": [
+      "coordenação",
+      "visão espacial",
+      "planejamento"
+    ],
+    "objective": "Conduzir a esfera até a abertura lateral coordenando os movimentos do labirinto tridimensional.",
+    "intro": [
+      "Neste quebra-cabeça, a esfera percorre um caminho que precisa ser observado em três dimensões. Inclinar ou girar o objeto altera a relação entre a esfera, as paredes e as passagens.",
+      "A proposta é avançar com movimentos controlados, observando como a gravidade e a orientação do labirinto influenciam o percurso. A ficha não presume uma sequência única de solução."
+    ],
+    "steps": [
+      {
+        "title": "Observe a esfera e as passagens",
+        "text": "Localize a esfera, a abertura de saída e os trechos do labirinto que podem ser vistos."
+      },
+      {
+        "title": "Faça movimentos pequenos",
+        "text": "Incline ou gire o objeto suavemente e acompanhe a resposta da esfera antes de realizar outro movimento."
+      },
+      {
+        "title": "Pense em três dimensões",
+        "text": "Considere não apenas esquerda e direita, mas também inclinação, profundidade e mudanças de nível."
+      },
+      {
+        "title": "Reavalie o percurso",
+        "text": "Se a esfera ficar presa em um trecho, retorne com cuidado e teste uma orientação diferente, sem sacudir o objeto."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Percepção espacial",
+        "text": "Interpretar o percurso e imaginar como ele muda conforme a orientação do objeto."
+      },
+      {
+        "title": "Coordenação motora",
+        "text": "Controlar inclinações pequenas para influenciar o movimento da esfera."
+      },
+      {
+        "title": "Planejamento e revisão",
+        "text": "Antecipar consequências e ajustar a estratégia com base no que acontece."
+      }
+    ],
+    "mediation": [
+      "Que movimento fez a esfera avançar mais do que você esperava?",
+      "Como a inclinação muda o caminho disponível?",
+      "É possível planejar o próximo trecho antes de mover o objeto?"
+    ],
+    "adaptations": [
+      "Uma pessoa pode orientar verbalmente os movimentos enquanto outra segura o labirinto.",
+      "Comece com um objetivo intermediário, como alcançar a próxima passagem, antes de tentar completar todo o percurso.",
+      "Permita pausas para observar a posição da esfera e discutir a próxima hipótese."
+    ],
+    "care": "Não desmonte o labirinto nem force a esfera contra as bordas. Evite sacudir ou bater no objeto para avançar.",
+    "sources": []
   }
 ]

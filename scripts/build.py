@@ -42,9 +42,11 @@ def load_games() -> list[dict[str, Any]]:
         missing = required - set(game)
         if missing:
             raise ValueError(f"{game.get('id', '<sem id>')}: campos ausentes: {sorted(missing)}")
-        image = ROOT / "images" / game["image"]
-        if not image.exists():
-            raise FileNotFoundError(f"Imagem ausente para {game['id']}: {image}")
+        image_value = game["image"]
+        if not image_value.startswith(("http://", "https://")):
+            image = ROOT / "images" / image_value
+            if not image.exists():
+                raise FileNotFoundError(f"Imagem ausente para {game['id']}: {image}")
         search_parts = [
             game["title"], game.get("catalog_alias", ""), game["subtitle"],
             game["summary"], game["category_label"], *game["tags"],

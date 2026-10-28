@@ -39,6 +39,7 @@
       <header class="detail-hero">
         <div class="shell detail-hero-grid">
           <div class="detail-copy">
+{% if game.student_created is defined and game.student_created %}<span class="student-created-badge detail"><span aria-hidden="true">✦</span> Jogo criado por estudantes</span>{% endif %}
             <span class="category-badge standalone">{{ game.category_label }}</span>
             <h1>{{ game.title }}</h1>
             {% if game.catalog_alias is defined and game.catalog_alias %}<p class="catalog-alias detail-alias">{{ game.catalog_alias }}</p>{% endif %}
@@ -74,6 +75,29 @@
             <h2 id="desafio-title">O que observar neste jogo</h2>
             {% for paragraph in game.intro %}<p>{{ paragraph }}</p>{% endfor %}
           </section>
+
+          {% if game.student_created is defined and game.student_created %}
+          <section class="content-block student-creation-block" aria-labelledby="student-creation-title">
+            <p class="eyebrow">Autoria estudantil</p>
+            <h2 id="student-creation-title">Sobre a criação do jogo</h2>
+            <div class="student-credit-panel">
+              <p>{{ game.creator_context }}</p>
+              <dl class="student-credit-list">
+                <div><dt>Autoria</dt><dd>{% for creator in game.student_creators %}{{ creator }}{% if not loop.last %}; {% endif %}{% endfor %}</dd></div>
+                <div><dt>Disciplina</dt><dd>{{ game.school_subject }}</dd></div>
+                <div><dt>Professora responsável</dt><dd>{{ game.teacher }}</dd></div>
+              </dl>
+            </div>
+          </section>
+          <section class="content-block student-rules-block" aria-labelledby="student-rules-title">
+            <p class="eyebrow">Espaço reservado</p>
+            <h2 id="student-rules-title">Resumo das regras e outros detalhes</h2>
+            <div class="reserved-details">
+              <p>{{ game.rules_summary }}</p>
+              <p>Este espaço será preenchido com as regras, a preparação da partida, os personagens, as ações possíveis, os objetivos e outros detalhes confirmados com as autoras.</p>
+            </div>
+          </section>
+          {% endif %}
 
           <section class="content-block" id="como-experimentar" aria-labelledby="steps-title">
             <p class="eyebrow">Guia de ação</p>

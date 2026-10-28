@@ -11,12 +11,19 @@
   const filterButtons = [...document.querySelectorAll(".filter-button")];
   const cards = [...document.querySelectorAll(".game-card")];
   const resultCount = document.querySelector("#result-count");
+  const totalGameCount = document.querySelector("#total-game-count");
   const emptyState = document.querySelector("#empty-state");
   const clearFilters = document.querySelector("#clear-filters");
   let activeFilter = "todos";
 
   function applyFilters() {
-    if (!cards.length) return;
+    // Derive both counters from the rendered catalog, never from a manually
+    // maintained number. The build step keeps these cards in sync with data.
+    if (totalGameCount) totalGameCount.textContent = String(cards.length);
+    if (!cards.length) {
+      if (resultCount) resultCount.textContent = "0";
+      return;
+    }
     const query = normalize(searchInput?.value || "");
     let visible = 0;
 
@@ -57,6 +64,9 @@
     applyFilters();
     searchInput?.focus();
   });
+
+  // Initialize the displayed count from the actual cards on page load.
+  applyFilters();
 
   const shareButton = document.querySelector(".share-button");
   const shareToast = document.querySelector("#share-toast");

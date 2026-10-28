@@ -1473,5 +1473,286 @@
     "teacher": "Nome a acrescentar",
     "creator_context": "Jogo de RPG de tabuleiro desenvolvido por Isabela e outras alunas como trabalho da disciplina de História.",
     "rules_summary": "Resumo das regras a acrescentar posteriormente."
+  },
+  {
+    "id": "xadrez",
+    "title": "Xadrez",
+    "subtitle": "Estratégia, cálculo e antecipação",
+    "summary": "Dois jogadores movimentam peças diferentes para atacar, defender e tentar dar xeque-mate ao rei adversário.",
+    "image": "xadrez.svg",
+    "image_alt": "Ilustração de um tabuleiro de xadrez com peças claras e escuras.",
+    "category": "estrategia",
+    "category_label": "Estratégia",
+    "players": "2",
+    "time": "20–60 min (pode variar bastante)",
+    "difficulty": "Progressivo",
+    "mode": "Regra conhecida",
+    "tags": [
+      "xadrez",
+      "estratégia",
+      "planejamento",
+      "antecipação",
+      "jogo de tabuleiro"
+    ],
+    "objective": "Dar xeque-mate ao rei adversário: colocá-lo sob ataque sem que exista uma resposta legal que elimine a ameaça.",
+    "intro": [
+      "Xadrez é um jogo de estratégia para duas pessoas. Cada lado começa com 16 peças, e cada tipo de peça tem movimentos próprios. As decisões envolvem controlar casas, proteger o rei, desenvolver as peças e antecipar as respostas do oponente.",
+      "A ficha apresenta as regras básicas do xadrez tradicional. Para situações especiais e variantes, consulte as regras combinadas pelo grupo ou um regulamento de referência."
+    ],
+    "steps": [
+      {
+        "title": "Monte o tabuleiro",
+        "text": "Posicione o tabuleiro com uma casa clara no canto direito de cada jogador. Organize as peças nas duas fileiras mais próximas de cada pessoa: torres nos cantos, cavalos ao lado delas, bispos em seguida, dama na casa de sua própria cor e rei na casa restante; os peões ficam à frente."
+      },
+      {
+        "title": "Aprenda os movimentos",
+        "text": "Torres movem-se em linhas retas; bispos, pelas diagonais; damas combinam os dois movimentos; cavalos saltam em formato de L; reis movem-se uma casa em qualquer direção; peões avançam para a frente e capturam na diagonal."
+      },
+      {
+        "title": "Faça jogadas alternadas",
+        "text": "As pessoas movem uma peça por turno. Não é permitido fazer uma jogada que deixe o próprio rei em xeque. Uma peça captura ao ocupar a casa de uma peça adversária, respeitando seu movimento."
+      },
+      {
+        "title": "Proteja o rei e procure o xeque-mate",
+        "text": "Quando o rei está atacado, está em xeque e a ameaça precisa ser resolvida. A partida termina em xeque-mate quando o rei está em xeque e não há resposta legal. Roque, en passant e promoção de peões são regras especiais."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Planejamento e antecipação",
+        "text": "Prever respostas possíveis e avaliar consequências antes de mover."
+      },
+      {
+        "title": "Raciocínio espacial",
+        "text": "Reconhecer linhas, diagonais, ameaças e relações entre peças."
+      },
+      {
+        "title": "Tomada de decisão",
+        "text": "Comparar alternativas e ajustar a estratégia conforme a posição muda."
+      }
+    ],
+    "mediation": [
+      "Que peça está ameaçada nesta posição?",
+      "O que seu movimento permite que o adversário faça em seguida?",
+      "É mais importante atacar, defender ou melhorar a posição de uma peça neste momento?"
+    ],
+    "adaptations": [
+      "Use tabuleiro e peças de alto contraste ou com identificação tátil, quando disponíveis.",
+      "Leia em voz alta as coordenadas e as jogadas, ou permita que uma pessoa parceira movimente as peças sob orientação.",
+      "Para iniciantes, apresente poucos movimentos por vez e faça partidas curtas com objetivos intermediários."
+    ],
+    "care": "Valorize a análise e a aprendizagem, não apenas o resultado. Para quem está começando, reduza a pressão competitiva e permita conversar sobre as jogadas.",
+    "sources": []
+  },
+  {
+    "id": "imagem-e-acao",
+    "title": "Imagem & Ação",
+    "subtitle": "Desenho, comunicação e adivinhação em equipe",
+    "summary": "Uma pessoa desenha uma palavra ou expressão para que sua equipe tente adivinhar dentro do tempo, seguindo as regras da edição usada.",
+    "image": "imagem_e_acao.svg",
+    "image_alt": "Ilustração de um cavalete com um desenho simples e um lápis.",
+    "category": "habilidade",
+    "category_label": "Habilidade",
+    "players": "Em equipes; quantidade varia conforme a edição",
+    "time": "30–60 min",
+    "difficulty": "Fácil de começar",
+    "mode": "Jogo em equipe",
+    "tags": [
+      "desenho",
+      "comunicação",
+      "criatividade",
+      "cooperação",
+      "jogo em equipe"
+    ],
+    "objective": "Fazer a equipe adivinhar a palavra ou expressão sorteada por meio de desenhos, respeitando as restrições e o tempo definidos pelas regras da edição.",
+    "intro": [
+      "Imagem & Ação é um jogo de adivinhação em que uma pessoa tenta representar uma palavra ou expressão por meio de desenhos, enquanto as outras pessoas de sua equipe procuram descobrir a resposta. O desenho é a principal forma de comunicação durante a rodada.",
+      "As categorias, o tempo, a pontuação e as restrições podem variar entre edições. Use o manual do exemplar para confirmar detalhes como letras, números, gestos ou outras marcas permitidas."
+    ],
+    "steps": [
+      {
+        "title": "Forme as equipes",
+        "text": "Divida os participantes em equipes e prepare o tabuleiro, as cartas, o papel ou quadro para desenhar, o marcador de tempo e os peões, se a edição os utilizar."
+      },
+      {
+        "title": "Sorteie a palavra",
+        "text": "Na vez da equipe, uma pessoa consulta a palavra ou expressão indicada pela carta sem revelar a resposta. Observe a categoria e as instruções específicas da edição."
+      },
+      {
+        "title": "Desenhe para comunicar",
+        "text": "Desenhe pistas visuais para ajudar a equipe a adivinhar dentro do tempo. Siga as restrições do manual e evite escrever a resposta."
+      },
+      {
+        "title": "Confira a resposta e avance",
+        "text": "Se a equipe acertar dentro do tempo, aplique a pontuação ou avance conforme as regras. Depois, passe a vez para a outra equipe."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Comunicação visual",
+        "text": "Transformar uma ideia em pistas gráficas compreensíveis para outras pessoas."
+      },
+      {
+        "title": "Criatividade e associação",
+        "text": "Encontrar relações entre palavras, imagens, símbolos visuais e experiências compartilhadas."
+      },
+      {
+        "title": "Cooperação",
+        "text": "Escutar hipóteses, construir respostas em conjunto e lidar com interpretações diferentes."
+      }
+    ],
+    "mediation": [
+      "Que parte do desenho ajudou mais a chegar à resposta?",
+      "Como a mesma ideia poderia ser representada de outra forma?",
+      "O que acontece quando as pessoas da equipe interpretam a imagem de modos diferentes?"
+    ],
+    "adaptations": [
+      "Permita papel maior, canetas de traço grosso ou quadro vertical, conforme as necessidades do grupo.",
+      "Combine adaptações acessíveis antes da partida, como descrição oral alternativa ou uso de cartões visuais, se isso for compatível com o objetivo da atividade.",
+      "Evite transformar habilidade de desenho em critério de valor: formas simples e esquemáticas também podem comunicar bem."
+    ],
+    "care": "Confira as regras da edição antes de começar, pois as restrições de desenho e as formas de pontuação variam. Garanta que a atividade seja acolhedora para quem não se sente confiante ao desenhar.",
+    "sources": []
+  },
+  {
+    "id": "banco-imobiliario",
+    "title": "Banco Imobiliário",
+    "subtitle": "Negociação, propriedades e administração de recursos",
+    "summary": "Os participantes percorrem o tabuleiro, compram propriedades, pagam cobranças e negociam para administrar seu dinheiro e buscar a vitória.",
+    "image": "banco_imobiliario.svg",
+    "image_alt": "Ilustração de um tabuleiro imobiliário com casas, edifícios e cartas.",
+    "category": "estrategia",
+    "category_label": "Estratégia",
+    "players": "Varia conforme a edição (consulte a caixa ou o manual)",
+    "time": "60–180 min ou mais",
+    "difficulty": "Intermediário",
+    "mode": "Jogo de tabuleiro",
+    "tags": [
+      "negociação",
+      "planejamento financeiro",
+      "propriedades",
+      "estratégia",
+      "jogo de tabuleiro"
+    ],
+    "objective": "Administrar dinheiro e propriedades, tomar decisões de compra e negociação e evitar a falência, buscando a condição de vitória definida pela edição utilizada.",
+    "intro": [
+      "Banco Imobiliário é um jogo de tabuleiro de negociação e administração de recursos. Ao percorrer o tabuleiro, os participantes podem adquirir propriedades, receber pagamentos, arcar com despesas e tomar decisões que afetam sua situação financeira.",
+      "Há diferentes edições e versões, com variações em componentes, valores, regras de negociação e condições de encerramento. Esta ficha é um guia geral: o manual do exemplar deve ser a referência para preparar e conduzir a partida."
+    ],
+    "steps": [
+      {
+        "title": "Prepare o jogo",
+        "text": "Separe o tabuleiro, os peões, o dinheiro, as cartas e os marcadores de propriedade. Escolha quem será responsável pelo banco e distribua os recursos iniciais conforme o manual."
+      },
+      {
+        "title": "Percorra o tabuleiro",
+        "text": "Na sua vez, role os dados e mova o peão conforme as regras. Resolva o espaço em que parar: ele pode permitir uma compra, exigir pagamento ou indicar uma ação especial."
+      },
+      {
+        "title": "Administre e negocie",
+        "text": "Avalie compras, pagamentos e negociações permitidas pela edição. Acompanhe seu dinheiro e as obrigações, pois decisões vantajosas no curto prazo podem criar dificuldades mais adiante."
+      },
+      {
+        "title": "Aplique a condição de vitória",
+        "text": "Continue até que ocorra a condição de encerramento prevista no manual. Em muitas versões, a falência dos adversários é central, mas a forma exata de finalizar e determinar o vencedor depende da edição."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Planejamento de recursos",
+        "text": "Equilibrar dinheiro disponível, despesas futuras e oportunidades de compra."
+      },
+      {
+        "title": "Negociação",
+        "text": "Apresentar propostas, avaliar trocas e considerar interesses diferentes."
+      },
+      {
+        "title": "Tomada de decisão sob incerteza",
+        "text": "Lidar com resultados dos dados e adaptar planos às mudanças no tabuleiro."
+      }
+    ],
+    "mediation": [
+      "Quanto dinheiro precisa ser reservado para despesas futuras?",
+      "Que vantagens e riscos existem em comprar esta propriedade agora?",
+      "Como uma negociação pode beneficiar ou prejudicar cada participante?"
+    ],
+    "adaptations": [
+      "Use bandejas ou divisórias para organizar dinheiro e cartas e reduzir a perda de componentes.",
+      "Leia em voz alta os valores e as ações, se isso facilitar a participação de todos.",
+      "Para partidas mais curtas, combine uma duração ou condição alternativa antes de começar, deixando claro que ela modifica as regras usuais."
+    ],
+    "care": "As partidas podem ser longas e envolver frustração ou competição. Combine previamente as regras de negociação e mantenha o dinheiro e os componentes organizados. Não associe o desempenho no jogo à capacidade financeira real dos participantes.",
+    "sources": []
+  },
+  {
+    "id": "quebra-cabecas-imagem-diversos",
+    "title": "Quebra-cabeças de imagem (diversos)",
+    "subtitle": "Montagem de imagens com peças encaixáveis",
+    "summary": "Uma coleção de quebra-cabeças tradicionais em que as peças são combinadas para reconstruir uma imagem. O desafio varia conforme a imagem e a quantidade de peças.",
+    "image": "quebra_cabecas_imagem.svg",
+    "image_alt": "Ilustração de peças de quebra-cabeça formando uma paisagem colorida.",
+    "category": "quebra-cabeca-imagem",
+    "category_label": "Quebra-cabeças de imagem",
+    "players": "1 pessoa ou montagem coletiva",
+    "time": "15 min a várias horas, conforme o exemplar",
+    "difficulty": "Variável — depende da imagem e do número de peças",
+    "mode": "Montagem por observação",
+    "tags": [
+      "quebra-cabeça",
+      "montagem",
+      "percepção visual",
+      "paciência",
+      "cooperação",
+      "imagem"
+    ],
+    "objective": "Encaixar todas as peças corretamente para reconstruir a imagem completa, sem lacunas nem sobreposições.",
+    "intro": [
+      "Esta página reúne os quebra-cabeças tradicionais de encaixe cuja montagem revela uma imagem — por exemplo, paisagens, animais, obras de arte ou outras ilustrações. Cada exemplar pode ter tamanho, formato, quantidade de peças e nível de dificuldade diferentes.",
+      "A montagem pode ser feita individualmente ou em grupo. A estratégia mais comum é observar cores, detalhes, bordas e padrões, usando a imagem de referência quando ela estiver disponível."
+    ],
+    "steps": [
+      {
+        "title": "Prepare a área",
+        "text": "Escolha uma superfície plana com espaço suficiente. Vire as peças para cima e confira se há uma imagem de referência na caixa ou no material do exemplar."
+      },
+      {
+        "title": "Separe as bordas",
+        "text": "Procure peças com um ou mais lados retos e monte o contorno, quando o formato do quebra-cabeça permitir identificar as bordas."
+      },
+      {
+        "title": "Agrupe por características",
+        "text": "Organize peças por cores, texturas, objetos ou regiões da imagem. Observe o formato dos encaixes junto com a ilustração, em vez de usar apenas uma dessas pistas."
+      },
+      {
+        "title": "Monte por regiões e confira",
+        "text": "Construa pequenas áreas reconhecíveis e conecte-as ao conjunto. Ao terminar, verifique se todas as peças estão encaixadas e se a imagem está completa."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Percepção visual",
+        "text": "Comparar formas, cores, contornos e detalhes para identificar relações entre peças."
+      },
+      {
+        "title": "Organização e planejamento",
+        "text": "Criar grupos de peças e decidir qual região da imagem montar primeiro."
+      },
+      {
+        "title": "Persistência e cooperação",
+        "text": "Experimentar alternativas, revisar encaixes e dividir tarefas em uma montagem coletiva."
+      }
+    ],
+    "mediation": [
+      "Que característica fez você escolher esta peça para essa região?",
+      "É mais útil procurar pela cor, pelo contorno ou pelo desenho? Por quê?",
+      "Como o grupo pode organizar as peças para que todos participem?"
+    ],
+    "adaptations": [
+      "Escolha a quantidade de peças e o tamanho adequados ao tempo e às necessidades dos participantes.",
+      "Use bandejas, folhas de cores contrastantes ou recipientes para separar grupos de peças.",
+      "Permita montar em dupla ou em pequenos grupos, com papéis alternados de observação, busca e encaixe."
+    ],
+    "care": "Antes de guardar, confira se todas as peças foram recolhidas e mantenha peças pequenas longe de crianças que possam levá-las à boca. O nível de dificuldade depende do exemplar, não apenas da quantidade de peças.",
+    "sources": []
   }
 ]

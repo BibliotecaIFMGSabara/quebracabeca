@@ -41,7 +41,7 @@
           <h1 id="hero-title">Um acervo para pensar com as mãos</h1>
           <p class="hero-lead">Jogos de estratégia, brinquedos de habilidade e quebra-cabeças de montagem. Escolha pelo tipo de desafio, experimente e torne o caminho da solução tão importante quanto a resposta.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#jogos">Explorar {{ games|length }} desafios</a>
+            <a class="button button-primary" href="#jogos">Explorar <span id="total-game-count">{{ games|length }}</span> desafios</a>
             <a class="button button-quiet" href="#como-usar">Ver proposta de uso</a>
           </div>
           <p class="hero-note"><strong>Importante:</strong> errar não é falhar no jogo; é produzir informação para a próxima tentativa.</p>
@@ -93,7 +93,7 @@
           <article class="game-card" data-category="{{ game.category }}" data-search="{{ game.search_text }}">
             <a class="game-card-link" href="pages/{{ game.id }}.html" aria-label="Conhecer {{ game.title }}">
               <div class="game-card-media">
-                <img src="images/{{ game.image }}" alt="{{ game.image_alt }}" width="960" height="640" {% if loop.index > 3 %}loading="lazy"{% endif %} decoding="async">
+                <img src="{% if game.image.startswith(('http://', 'https://')) %}{{ game.image }}{% else %}images/{{ game.image }}{% endif %}" alt="{{ game.image_alt }}" width="960" height="640" {% if loop.index > 3 %}loading="lazy"{% endif %} decoding="async">
                 <span class="category-badge">{{ game.category_label }}</span>
               </div>
               <div class="game-card-body">

@@ -14,6 +14,8 @@ from typing import Any
 
 from jinja2 import Environment, FileSystemLoader, StrictUndefined, select_autoescape
 
+from image_utils import resolve_local_image
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "data" / "jogos.json"
 TEMPLATES = ROOT / "templates"
@@ -42,9 +44,16 @@ def load_games() -> list[dict[str, Any]]:
         missing = required - set(game)
         if missing:
             raise ValueError(f"{game.get('id', '<sem id>')}: campos ausentes: {sorted(missing)}")
-        image = ROOT / "images" / game["image"]
-        if not image.exists():
-            raise FileNotFoundError(f"Imagem ausente para {game['id']}: {image}")
+        image_value = game["image"]
+        if not image_value.startswith(("http://", "https://")):
+            image = resolve_local_image(ROOT / "images", image_value)
+            if image is None:
+                raise FileNotFoundError(
+                    f"Imagem ausente ou formato não suportado para {game['id']}: {image_value}"
+                )
+            # Keep catalog data flexible, but generate HTML with the actual
+            # filename so changing only the image extension does not break it.
+            game["image"] = image.name
         search_parts = [
             game["title"], game.get("catalog_alias", ""), game["subtitle"],
             game["summary"], game["category_label"], *game["tags"],

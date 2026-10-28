@@ -10,6 +10,8 @@ from urllib.parse import urlsplit
 from bs4 import BeautifulSoup
 from PIL import Image
 
+from image_utils import resolve_local_image
+
 ROOT = Path(__file__).resolve().parents[1]
 ERRORS: list[str] = []
 
@@ -47,9 +49,13 @@ def check_html(path: Path) -> None:
 def check_images() -> None:
     data = json.loads((ROOT / "data" / "jogos.json").read_text(encoding="utf-8"))
     for game in data:
-        path = ROOT / "images" / game["image"]
-        if not path.exists():
-            ERRORS.append(f"Imagem ausente: {path.relative_to(ROOT)}")
+        if game["image"].startswith(("http://", "https://")):
+            continue
+        path = resolve_local_image(ROOT / "images", game["image"])
+        if path is None:
+            ERRORS.append(
+                f"Imagem ausente ou formato não suportado: images/{game['image']}"
+            )
             continue
         if path.suffix.lower() == ".svg":
             if "<svg" not in path.read_text(encoding="utf-8")[:500]:

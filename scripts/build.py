@@ -57,6 +57,7 @@ def load_games() -> list[dict[str, Any]]:
         search_parts = [
             game["title"], game.get("catalog_alias", ""), game["subtitle"],
             game["summary"], game["category_label"], *game["tags"],
+            game.get("school_subject", ""), *game.get("student_creators", []),
             *(skill["title"] for skill in game["skills"])
         ]
         game["search_text"] = normalize(" ".join(search_parts))

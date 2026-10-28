@@ -1398,5 +1398,80 @@
     ],
     "care": "Valorize a explicação do raciocínio, e não apenas a rapidez. Quando houver dificuldade, comece por sequências curtas ou por somas com poucas combinações possíveis.",
     "sources": []
+  },
+  {
+    "id": "quilombo-dos-palmares",
+    "title": "Quilombo dos Palmares: Caminhos de Resistência",
+    "subtitle": "RPG de tabuleiro sobre história e resistência",
+    "summary": "Jogo criado por alunas como trabalho da disciplina de História. O resumo das regras e outros detalhes serão acrescentados com as autoras.",
+    "image": "quilombo_dos_palmares.webp",
+    "image_alt": "Tabuleiro do jogo Quilombo dos Palmares: Caminhos de Resistência, com percurso numerado em cores sobre uma ilustração de paisagem histórica e peças de jogo na caixa.",
+    "category": "estrategia",
+    "category_label": "Estratégia",
+    "players": "A definir",
+    "time": "A definir",
+    "difficulty": "A definir",
+    "mode": "Ficha em construção",
+    "tags": [
+      "história",
+      "Quilombo dos Palmares",
+      "RPG de tabuleiro",
+      "resistência",
+      "autoria estudantil"
+    ],
+    "objective": "Objetivo e condições de vitória a confirmar com as autoras após o registro das regras.",
+    "intro": [
+      "Quilombo dos Palmares: Caminhos de Resistência é um RPG de tabuleiro desenvolvido por Isabela e outras alunas como trabalho da disciplina de História. O jogo aborda o Quilombo dos Palmares e os caminhos de resistência, conforme a proposta de suas criadoras.",
+      "A fotografia mostra um tabuleiro com percurso numerado e peças de jogo. A dinâmica narrativa, os personagens, a preparação, os turnos e as condições de vitória ainda serão documentados com base nas regras elaboradas pelas estudantes."
+    ],
+    "steps": [
+      {
+        "title": "Conheça o tabuleiro",
+        "text": "Observe o percurso, as cores, os marcadores e os demais componentes. Os significados de cada elemento serão descritos quando as regras forem acrescentadas."
+      },
+      {
+        "title": "Consulte as regras das autoras",
+        "text": "A preparação, a sequência de turnos, as ações possíveis e o objetivo da partida ainda precisam ser registrados. Não presumimos essas regras a partir apenas da fotografia."
+      },
+      {
+        "title": "Relacione jogo e contexto histórico",
+        "text": "Quando a proposta completa estiver disponível, use a mediação para conversar sobre o contexto histórico representado e sobre as escolhas narrativas feitas pelas criadoras."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Contextualização histórica",
+        "text": "Pode apoiar a discussão sobre o Quilombo dos Palmares e as formas de resistência, conforme o conteúdo e a mediação propostos pelas autoras."
+      },
+      {
+        "title": "Colaboração e tomada de decisões",
+        "text": "A dinâmica específica ainda será confirmada; quando as regras forem documentadas, será possível descrever melhor as decisões individuais e coletivas."
+      },
+      {
+        "title": "Autoria e criação",
+        "text": "Permite valorizar a produção de conhecimento das estudantes e conversar sobre como conteúdos históricos podem ser transformados em uma experiência de jogo."
+      }
+    ],
+    "mediation": [
+      "Que contexto histórico as criadoras quiseram apresentar por meio do jogo?",
+      "Como as escolhas de personagens, percurso e acontecimentos ajudam a contar essa história?",
+      "Que informações históricas precisam ser consultadas para compreender melhor a proposta?"
+    ],
+    "adaptations": [
+      "Apresente o tabuleiro e as peças verbalmente antes de começar, combinando formas de participação acessíveis ao grupo.",
+      "Permita que participantes se revezem na leitura das regras, na movimentação das peças e no registro das decisões, conforme a dinâmica final.",
+      "Reserve espaço para perguntas e contextualização histórica, sem tratar a experiência de jogo como substituta do estudo das fontes."
+    ],
+    "care": "A ficha está em construção. As regras e os detalhes de contexto devem ser confirmados com as autoras e com a professora responsável antes de orientar uma partida. Trate a história do Quilombo dos Palmares com rigor e respeito, evitando simplificações ou estereótipos.",
+    "sources": [],
+    "student_created": true,
+    "student_creators": [
+      "Isabela",
+      "Outras alunas — nomes a acrescentar"
+    ],
+    "school_subject": "História",
+    "teacher": "Nome a acrescentar",
+    "creator_context": "Jogo de RPG de tabuleiro desenvolvido por Isabela e outras alunas como trabalho da disciplina de História.",
+    "rules_summary": "Resumo das regras a acrescentar posteriormente."
   }
 ]

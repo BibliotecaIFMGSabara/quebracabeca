@@ -95,6 +95,7 @@
               <div class="game-card-media">
                 <img src="{% if game.image.startswith(('http://', 'https://')) %}{{ game.image }}{% else %}images/{{ game.image }}{% endif %}" alt="{{ game.image_alt }}" width="960" height="640" {% if loop.index > 3 %}loading="lazy"{% endif %} decoding="async">
                 <span class="category-badge">{{ game.category_label }}</span>
+                {% if game.student_created is defined and game.student_created %}<span class="student-created-badge" aria-label="Jogo criado por estudantes"><span aria-hidden="true">✦</span> Criado por estudantes</span>{% endif %}
               </div>
               <div class="game-card-body">
                 <div class="game-card-heading">

@@ -1329,5 +1329,74 @@
     ],
     "care": "A carta fotografada está identificada como muito difícil. Ofereça desafios compatíveis com a experiência da pessoa e trate erros como oportunidades de revisar o raciocínio, não como medida de inteligência.",
     "sources": []
+  },
+  {
+    "id": "baralho-kakuro",
+    "title": "Baralho de Kakuro",
+    "subtitle": "Quebra-cabeça numérico de somas cruzadas",
+    "summary": "Preencha as casas brancas com números de 1 a 9, usando as pistas de soma para completar cada sequência sem repetir dígitos dentro dela.",
+    "image": "baralho_kakuro.webp",
+    "image_alt": "Duas cartas de Kakuro da Copag: à esquerda, o desafio de dificuldade média; à direita, a solução preenchida.",
+    "category": "logica",
+    "category_label": "Lógica",
+    "players": "1 por vez ou em dupla",
+    "time": "10–30 min",
+    "difficulty": "Médio",
+    "mode": "Regra conhecida",
+    "tags": [
+      "kakuro",
+      "somas",
+      "dedução",
+      "raciocínio numérico"
+    ],
+    "objective": "Preencher todas as casas brancas com algarismos de 1 a 9 de modo que cada sequência horizontal ou vertical some o valor indicado pela pista, sem repetir algarismos dentro da mesma sequência.",
+    "intro": [
+      "O Kakuro combina lógica e aritmética. As casas roxas trazem pistas numéricas para sequências de casas brancas: uma pista indica a soma dos números que devem preencher a sequência horizontal ou vertical correspondente.",
+      "Como no Sudoku, não basta encontrar números que somem o valor pedido: os algarismos de uma mesma sequência não podem se repetir. A carta fotografada indica dificuldade média e aparece acompanhada de uma carta com a solução."
+    ],
+    "steps": [
+      {
+        "title": "Escolha um desafio",
+        "text": "Observe a grade e identifique as pistas diagonais. Em geral, o número na parte superior indica a soma de uma sequência horizontal e o da parte inferior indica a soma de uma sequência vertical."
+      },
+      {
+        "title": "Conte as casas",
+        "text": "Para cada pista, determine quantas casas brancas compõem a sequência. A quantidade de casas e a soma limitam quais combinações de algarismos são possíveis."
+      },
+      {
+        "title": "Elimine combinações",
+        "text": "Use algarismos de 1 a 9 sem repetição dentro de cada sequência. Cruze as possibilidades horizontais e verticais para descobrir quais números podem ocupar cada casa."
+      },
+      {
+        "title": "Confira a solução",
+        "text": "Quando completar a grade, compare o resultado com a carta de solução correspondente. Se houver divergência, revise primeiro as somas e as repetições nas sequências afetadas."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Raciocínio lógico-matemático",
+        "text": "Relacionar somas, quantidade de casas e combinações possíveis de números."
+      },
+      {
+        "title": "Dedução",
+        "text": "Cruzar as restrições horizontais e verticais para reduzir as possibilidades."
+      },
+      {
+        "title": "Atenção e planejamento",
+        "text": "Registrar candidatos, acompanhar várias sequências e revisar hipóteses."
+      }
+    ],
+    "mediation": [
+      "Quais combinações de números podem produzir essa soma sem repetir algarismos?",
+      "O que muda quando sabemos quantas casas precisam ser preenchidas?",
+      "Que informação da sequência vertical ajuda a decidir esta casa da sequência horizontal?"
+    ],
+    "adaptations": [
+      "Permita anotar candidatos em uma folha separada para acompanhar as possibilidades.",
+      "Amplie a imagem ou use uma lupa caso os números das pistas sejam pequenos.",
+      "Em dupla, uma pessoa pode analisar as somas horizontais e a outra as verticais, explicando como as conclusões se relacionam."
+    ],
+    "care": "Valorize a explicação do raciocínio, e não apenas a rapidez. Quando houver dificuldade, comece por sequências curtas ou por somas com poucas combinações possíveis.",
+    "sources": []
   }
 ]

@@ -1261,5 +1261,73 @@
     ],
     "care": "Não desmonte o labirinto nem force a esfera contra as bordas. Evite sacudir ou bater no objeto para avançar.",
     "sources": []
+  },
+  {
+    "id": "baralho-sudoku",
+    "title": "Baralho de Sudoku",
+    "subtitle": "Desafio de lógica com cartas de problema e solução",
+    "summary": "Complete a grade 9×9 usando dedução: cada linha, coluna e bloco 3×3 deve conter os números de 1 a 9 sem repetição.",
+    "image": "baralho_sudoku.webp",
+    "image_alt": "Duas cartas de Sudoku da Copag: à esquerda, um desafio marcado como muito difícil; à direita, a carta com a solução preenchida.",
+    "category": "logica",
+    "category_label": "Lógica",
+    "players": "1 por vez ou em dupla",
+    "time": "5–30 min",
+    "difficulty": "Avançado",
+    "mode": "Regra conhecida",
+    "tags": [
+      "sudoku",
+      "dedução",
+      "atenção"
+    ],
+    "objective": "Preencher todas as casas vazias da grade 9×9 de modo que cada linha, coluna e bloco 3×3 contenha os números de 1 a 9 uma única vez.",
+    "intro": [
+      "O Sudoku é um quebra-cabeça numérico de dedução. Os números já impressos funcionam como pistas: a cada passo, é preciso descobrir quais valores podem ocupar uma casa sem quebrar as regras da grade.",
+      "O baralho apresenta cartas com desafios e cartas de solução. A imagem deste exemplar mostra uma carta identificada como “Muito/Muy Difícil” e a respectiva grade preenchida. A solução serve para conferir o raciocínio depois da tentativa, não como primeira pista."
+    ],
+    "steps": [
+      {
+        "title": "Escolha um desafio",
+        "text": "Separe uma carta de problema e observe os números que já estão preenchidos. Se necessário, registre as possibilidades em papel à parte."
+      },
+      {
+        "title": "Use as três regras",
+        "text": "Em cada linha, coluna e bloco de 3×3 casas, os números de 1 a 9 devem aparecer sem repetição. Elimine candidatos que já aparecem em uma dessas regiões."
+      },
+      {
+        "title": "Avance por dedução",
+        "text": "Procure casas com apenas uma possibilidade e números que só podem ocupar uma posição dentro de determinada linha, coluna ou bloco. Revise as consequências antes de avançar."
+      },
+      {
+        "title": "Confira a solução",
+        "text": "Quando terminar, compare a grade com a carta de solução correspondente. Se houver divergência, localize o primeiro passo em que uma possibilidade foi descartada incorretamente."
+      }
+    ],
+    "skills": [
+      {
+        "title": "Dedução lógica",
+        "text": "Concluir quais números são possíveis a partir de restrições simultâneas."
+      },
+      {
+        "title": "Atenção e organização",
+        "text": "Acompanhar informações em linhas, colunas e blocos sem perder de vista as relações entre elas."
+      },
+      {
+        "title": "Verificação de hipóteses",
+        "text": "Revisar uma sequência de decisões e identificar onde surgiu uma contradição."
+      }
+    ],
+    "mediation": [
+      "Que informação torna impossível colocar determinado número nesta casa?",
+      "Você está certo de que este número só cabe aqui ou ainda há outra possibilidade?",
+      "Em qual linha, coluna ou bloco surgiu a primeira contradição?"
+    ],
+    "adaptations": [
+      "Permita registrar candidatos em uma folha separada para não escrever nas cartas.",
+      "Amplie a imagem ou use uma lupa se os números pequenos dificultarem a leitura.",
+      "Em dupla, uma pessoa pode explicar as possibilidades enquanto a outra acompanha a grade; não é necessário competir por velocidade."
+    ],
+    "care": "A carta fotografada está identificada como muito difícil. Ofereça desafios compatíveis com a experiência da pessoa e trate erros como oportunidades de revisar o raciocínio, não como medida de inteligência.",
+    "sources": []
   }
 ]

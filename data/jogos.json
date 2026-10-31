@@ -1402,67 +1402,76 @@
   {
     "id": "quilombo-dos-palmares",
     "title": "Quilombo dos Palmares: Caminhos de Resistência",
-    "subtitle": "RPG de tabuleiro sobre história e resistência",
-    "summary": "Jogo criado por alunas como trabalho da disciplina de História. O resumo das regras e outros detalhes serão acrescentados com as autoras.",
+    "subtitle": "Jogo de tabuleiro histórico em equipes",
+    "summary": "Duas equipes avançam pelo tabuleiro respondendo a perguntas sobre o Quilombo dos Palmares, conquistando peças de território e enfrentando cartas surpresa.",
     "image": "quilombo_dos_palmares.png",
-    "image_alt": "Fotografia do tabuleiro do RPG Quilombo dos Palmares: Caminhos de Resistência, desenvolvido por alunas como trabalho da disciplina de História.",
+    "image_alt": "Fotografia do tabuleiro do jogo Quilombo dos Palmares: Caminhos de Resistência, criado por estudantes.",
     "category": "estrategia",
     "category_label": "Estratégia",
-    "players": "A definir",
-    "time": "A definir",
-    "difficulty": "A definir",
-    "mode": "Ficha em construção",
+    "players": "5 a 9 (duas equipes de 2 a 4 pessoas e um mestre)",
+    "time": "Não informado no manual",
+    "difficulty": "Perguntas em três níveis: fácil, médio e difícil",
+    "mode": "Jogo de tabuleiro em equipes",
     "tags": [
       "história",
       "Quilombo dos Palmares",
-      "RPG de tabuleiro",
+      "jogo de tabuleiro",
       "resistência",
-      "autoria estudantil"
+      "autoria estudantil",
+      "perguntas e respostas"
     ],
-    "objective": "Objetivo e condições de vitória a confirmar com as autoras após o registro das regras.",
+    "objective": "Reconquistar o máximo possível de territórios, tomando de volta o que é de vocês e expulsando os invasores.",
     "intro": [
-      "Quilombo dos Palmares: Caminhos de Resistência é um RPG de tabuleiro desenvolvido por Isabela e outras alunas como trabalho da disciplina de História. O jogo aborda o Quilombo dos Palmares e os caminhos de resistência, conforme a proposta de suas criadoras.",
-      "A fotografia mostra um tabuleiro com percurso numerado e peças de jogo. A dinâmica narrativa, os personagens, a preparação, os turnos e as condições de vitória ainda serão documentados com base nas regras elaboradas pelas estudantes."
+      "Quilombo dos Palmares: Caminhos de Resistência é um jogo de tabuleiro criado por estudantes, com temática histórica. Os participantes assumem o papel de palmaristas durante a guerra de Palmares e precisam proteger seu território respondendo a perguntas e trabalhando em equipe.",
+      "A partida é disputada por duas equipes, acompanhadas por um mestre responsável pelo andamento do jogo, pelas cartas e pelas perguntas. O percurso combina casas de perguntas de diferentes dificuldades, casas surpresa e uma casa que representa uma área ocupada pelos invasores."
     ],
     "steps": [
       {
-        "title": "Conheça o tabuleiro",
-        "text": "Observe o percurso, as cores, os marcadores e os demais componentes. Os significados de cada elemento serão descritos quando as regras forem acrescentadas."
+        "title": "Forme as equipes",
+        "text": "Divida os participantes em duas equipes, cada uma com no mínimo duas e no máximo quatro pessoas. Uma pessoa atua como mestre, responsável pelas cartas, pelas perguntas e pelo andamento da partida."
       },
       {
-        "title": "Consulte as regras das autoras",
-        "text": "A preparação, a sequência de turnos, as ações possíveis e o objetivo da partida ainda precisam ser registrados. Não presumimos essas regras a partir apenas da fotografia."
+        "title": "Defina quem começa",
+        "text": "As duas equipes começam no início do tabuleiro e lançam o dado. A equipe que tirar o maior número inicia o jogo."
       },
       {
-        "title": "Relacione jogo e contexto histórico",
-        "text": "Quando a proposta completa estiver disponível, use a mediação para conversar sobre o contexto histórico representado e sobre as escolhas narrativas feitas pelas criadoras."
+        "title": "Avance e responda",
+        "text": "Na sua vez, lance o dado e avance o número de casas correspondente. As casas coloridas indicam perguntas: verde para fáceis, amarelo para médias e vermelho para difíceis. As respostas corretas rendem peças de território conforme a pontuação da carta."
+      },
+      {
+        "title": "Enfrente as casas especiais",
+        "text": "Nas casas vazias, a equipe compra uma carta surpresa, que pode trazer uma dica ou um infortúnio. Na casa cinza/preta, que representa uma área ocupada pelos invasores, a equipe entrega uma peça de território ao mestre ou, se não tiver nenhuma, volta ao início."
+      },
+      {
+        "title": "Conclua a partida",
+        "text": "O jogo termina quando uma das equipes chega ao final do percurso. Vence a equipe que tiver a maior quantidade de peças de território."
       }
     ],
     "skills": [
       {
-        "title": "Contextualização histórica",
-        "text": "Pode apoiar a discussão sobre o Quilombo dos Palmares e as formas de resistência, conforme o conteúdo e a mediação propostos pelas autoras."
+        "title": "Conhecimento histórico",
+        "text": "Mobilizar informações sobre a história do Quilombo dos Palmares por meio de perguntas de diferentes níveis."
       },
       {
-        "title": "Colaboração e tomada de decisões",
-        "text": "A dinâmica específica ainda será confirmada; quando as regras forem documentadas, será possível descrever melhor as decisões individuais e coletivas."
+        "title": "Trabalho em equipe",
+        "text": "Discutir as perguntas e construir respostas coletivamente."
       },
       {
-        "title": "Autoria e criação",
-        "text": "Permite valorizar a produção de conhecimento das estudantes e conversar sobre como conteúdos históricos podem ser transformados em uma experiência de jogo."
+        "title": "Raciocínio e tomada de decisão",
+        "text": "Lidar com perguntas, dicas, infortúnios e mudanças na quantidade de territórios conquistados."
       }
     ],
     "mediation": [
-      "Que contexto histórico as criadoras quiseram apresentar por meio do jogo?",
-      "Como as escolhas de personagens, percurso e acontecimentos ajudam a contar essa história?",
-      "Que informações históricas precisam ser consultadas para compreender melhor a proposta?"
+      "Que aspectos da história de Palmares aparecem nas perguntas do jogo?",
+      "Como o trabalho em equipe ajuda a construir uma resposta?",
+      "O que as cartas e as casas especiais representam na trajetória das equipes?"
     ],
     "adaptations": [
-      "Apresente o tabuleiro e as peças verbalmente antes de começar, combinando formas de participação acessíveis ao grupo.",
-      "Permita que participantes se revezem na leitura das regras, na movimentação das peças e no registro das decisões, conforme a dinâmica final.",
-      "Reserve espaço para perguntas e contextualização histórica, sem tratar a experiência de jogo como substituta do estudo das fontes."
+      "O mestre pode ler as perguntas em voz alta para a equipe.",
+      "Permita que os integrantes discutam antes de apresentar uma resposta.",
+      "Organize a leitura das cartas e a movimentação das peças de modo que todos possam participar."
     ],
-    "care": "A ficha está em construção. As regras e os detalhes de contexto devem ser confirmados com as autoras e com a professora responsável antes de orientar uma partida. Trate a história do Quilombo dos Palmares com rigor e respeito, evitando simplificações ou estereótipos.",
+    "care": "O manual apresenta uma representação lúdica de acontecimentos históricos. A mediação deve contextualizar a história do Quilombo dos Palmares e evitar tratar o jogo como substituto de estudo histórico. Algumas regras poderão ser atualizadas pelas autoras.",
     "sources": [],
     "student_created": true,
     "student_creators": [
@@ -1471,8 +1480,8 @@
     ],
     "school_subject": "História",
     "teacher": "Nome a acrescentar",
-    "creator_context": "Jogo de RPG de tabuleiro desenvolvido por Isabela e outras alunas como trabalho da disciplina de História.",
-    "rules_summary": "Resumo das regras a acrescentar posteriormente."
+    "creator_context": "Jogo de tabuleiro desenvolvido por estudantes como trabalho da disciplina de História.",
+    "rules_summary": "Duas equipes percorrem o tabuleiro respondendo a perguntas sobre o Quilombo dos Palmares. Respostas corretas rendem peças de território; casas especiais trazem dicas, infortúnios ou perda de território. A partida termina quando uma equipe alcança o final do percurso, vencendo quem tiver mais peças de território."
   },
   {
     "id": "xadrez",

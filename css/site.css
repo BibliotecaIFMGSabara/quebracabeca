@@ -258,7 +258,7 @@ button { color: inherit; }
 .filter-button:hover { border-color: var(--brand); }
 .filter-button.is-active { border-color: var(--brand); background: var(--brand); color: white; }
 
-.game-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 348px), 1fr)); gap: 1.3rem; }
+.game-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 348px), 1fr)); gap: 1.3rem; }
 .game-card {
   min-width: 0;
   overflow: hidden;

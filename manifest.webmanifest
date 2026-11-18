@@ -1,0 +1,24 @@
+{
+  "name": "Acervo de Jogos e Quebra-Cabeças",
+  "short_name": "Jogos",
+  "description": "Catálogo educativo de jogos, desafios e quebra-cabeças.",
+  "lang": "pt-BR",
+  "id": "./",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "background_color": "#f5f2eb",
+  "theme_color": "#1f6546",
+  "icons": [
+    {
+      "src": "./icons/biblioteca-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
